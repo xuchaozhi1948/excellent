@@ -1,0 +1,184 @@
+*{
+    margin:0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.wzm_box{
+    width: 100%;
+    height: 120px;
+    background-color: #222222;
+}
+.wzm_box1{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+}
+.wzm_box1 li{
+    display: block;
+    width: 8.2%;
+    height: 100%;
+    float: left;
+    margin: 0 2.8%;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 10;
+    font-size: 16px;
+    line-height: 120px;
+    color: #cea85f;
+    text-align: center;
+}
+.wzm_backimg{
+    width: 100%;
+    height: 200px;
+    font-size: 16px;
+    line-height: 120px;
+    /*color: #cea85f;*/
+    text-align: center;
+    position: absolute;
+    left:0;
+    top:0;
+    z-index: 11;
+
+    opacity: 0;
+    transition: all 0.5s linear;
+}
+.wzm_backimg img{
+    width: 100%;
+    height: 100%;
+}
+.wzm_box1 li:hover .wzm_backimg{
+    opacity: 1;
+    color: #000;
+}
+.wzm_box1 .logo{
+    width: 16%;
+    margin:0;
+}
+.wzm_box1 .logo img{
+    width: 100%;
+    height: 100%;
+}
+.wzm_box1 li .wzm_active1{
+    opacity: 1;
+    color: #000;
+}
+.wzm_box1 li span{
+    position: absolute;
+    left:0;
+    top:0;
+    bottom: 0;
+    right:0;
+    margin:auto;
+    z-index: 100;
+}
+.wzm_box2,.wzm_caidan,.zhezhao,.wzm_caidan1{
+    display: none;
+}
+@media screen and (max-width: 768px) {
+    .wzm_box1{
+        display: none;
+    }
+    .wzm_box{
+        height: 50px;
+        position: relative;
+    }
+    .wzm_box2{
+        display: block;
+        width: 97%;
+        height: 100%;
+        margin: 0 10px;
+        box-sizing: border-box;
+        font-size: 18px;
+        line-height: 50px;
+        text-align: center;
+        position: relative;
+        color: #cea85f;
+    }
+    .wzm_box2 .wzm_logo1{
+        width: 8.3%;
+        height: 100%;
+        position: absolute;
+        left:0;
+        top:0;
+    }
+    .wzm_logo1 img{
+        width: 100%;
+        height: 100%;
+    }
+    .wzm_box2 .wzm_caidan{
+        width: 6.5%;
+        height: 100%;
+        font-size: 24px;
+        line-height: 50px;
+        text-align: center;
+        position: absolute;
+        right:0;
+        top:0;
+        left:auto;
+        cursor: pointer;
+    }
+    @font-face {
+        font-family: 'iconfont';
+        src: url('../font/wzm_font1/iconfont.eot');
+        src: url('../font/wzm_font1/iconfont.eot?#iefix') format('embedded-opentype'),
+        url('../font/wzm_font1/iconfont.woff') format('woff'),
+        url('../font/wzm_font1/iconfont.ttf') format('truetype'),
+        url('../font/wzm_font1/iconfont.svg#iconfont') format('svg');
+    }
+    .iconfont{
+        font-family:"iconfont" !important;
+        font-size:24px;font-style:normal;
+        -webkit-font-smoothing: antialiased;
+        -webkit-text-stroke-width: 0.2px;
+        -moz-osx-font-smoothing: grayscale;
+    }
+    @font-face {
+        font-family: 'iconfont';
+        src: url('../font/wzm_font2/iconfont.eot');
+        src: url('../font/wzm_font2/iconfont.eot?#iefix') format('embedded-opentype'),
+        url('../font/wzm_font2/iconfont.woff') format('woff'),
+        url('../font/wzm_font2/iconfont.ttf') format('truetype'),
+        url('../font/wzm_font2/iconfont.svg#iconfont') format('svg');
+    }
+    .iconfont1{
+        font-family:"iconfont" !important;
+        font-size:24px;font-style:normal;
+        -webkit-font-smoothing: antialiased;
+        -webkit-text-stroke-width: 0.2px;
+        -moz-osx-font-smoothing: grayscale;
+    }
+    .wzm_caidan1{
+        width: 6.5%;
+        height: 100%;
+        font-size: 24px;
+        line-height: 50px;
+        text-align: center;
+        position: absolute;
+        right:10px;
+        top:0;
+        left:auto;
+        cursor: pointer;
+        z-index: 10;
+        color: #cea85f;
+        /*display: none;*/
+    }
+    .zhezhao{
+        width: 100%;
+        height: auto;
+        background: rgba(0,0,0,0.9);
+        position: absolute;
+        left:0;
+        top:0;
+        padding: 50px 50px 100px;
+        box-sizing: border-box;
+    }
+    .wzm_yiji{
+        width: 100%;
+        height: 49px;
+        line-height: 49px;
+        font-size: 20px;
+        color: #cea85f;
+        border-bottom: 1px solid #a9a9a9;
+    }
+}
