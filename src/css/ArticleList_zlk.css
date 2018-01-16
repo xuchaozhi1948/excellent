@@ -1,0 +1,46 @@
+body{
+    width: 100%;
+    height: 100%;
+    background: #F5F5F5;
+
+}
+.zlk_top{
+    width: 87.5%;
+    height: 752px;
+    background: #fff;
+    margin: 0 auto;
+}
+.zlk_topTop{
+
+    height: 248px;
+    color: #7E7E7E;
+}
+.zlk_topBottom{
+    height: 510px;
+    background: red;
+}
+.zlk_topBottomLeft{
+    height: 50px;
+    width: 50%;
+    margin-right: 10%;
+    background: #ccc;
+    float: left;
+
+}
+.zlk_topBottomRight{
+    display: flex;
+    flex-direction: column;
+
+    height: 50px;
+    width: 40%;
+    background: #2a6496;
+    float:right;
+
+}
+.zlk_middle{
+    width: 90%;
+    height: 752px;
+    background: #ccc;
+    margin: 0 auto;
+
+}

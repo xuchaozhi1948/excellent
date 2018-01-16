@@ -1,0 +1,16 @@
+.xcz_focus{
+    width: 100%;
+    height: 410px;
+    background: pink;
+    position: relative;
+}
+.xcz_content{
+    width: 1200px;
+    /*height: auto;*/
+    /*这里应该是auto*/
+    height: auto;
+    background: #fff;
+    position: absolute;
+    top: 377px;
+    left: calc(50% - 600px);
+}
