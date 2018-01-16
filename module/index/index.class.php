@@ -11,6 +11,5 @@ class index extends indexMain
     function init(){
         $this->s->display('index/index.html');
 
-
     }
 }

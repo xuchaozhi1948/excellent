@@ -14,7 +14,7 @@ class indexMain
 
         $this->s=new Smarty();
         $this->s->setCompileDir(ROOT_PATH.'compile/');
-        $this->s->setTemplateDir(ROOT_PATH.'template/');
+        $this->s->setTemplateDir(ROOT_PATH.'views/');
 
     }
 }
