@@ -1,0 +1,31 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.form-horizontal{
+    overflow: hidden;
+    height: 100%;
+}
+form{
+    margin-top: 60px;
+    position: relative;
+}
+#passtwo-error,#pass-error{
+    color:red;opacity: 0.8;
+}
+.success{
+    position:absolute;
+    left:0;right: 0;
+    top:150px;bottom: 0px;
+    margin:auto;
+    z-index: 1000;
+    color:#fff;
+    font-size: 26px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 80px;
+    width: 200px;height: 80px;
+    background: rgba(35,195,170,0.8);
+    display: none;
+    text-shadow: 1px 1px #EFEFEF, 1px 0px #AEE2D9
+}
