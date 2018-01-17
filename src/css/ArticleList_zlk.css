@@ -5,42 +5,141 @@ body{
 
 }
 .zlk_top{
-    width: 87.5%;
-    height: 752px;
-    background: #fff;
+    width: 1000px;
+
+    background: red;
     margin: 0 auto;
 }
 .zlk_topTop{
 
-    height: 248px;
+
     color: #7E7E7E;
 }
 .zlk_topBottom{
+    position: relative;
     height: 510px;
-    background: red;
+    display: flex;
+    justify-content: space-between;
+
 }
 .zlk_topBottomLeft{
-    height: 50px;
-    width: 50%;
-    margin-right: 10%;
-    background: #ccc;
-    float: left;
-
+    width: 37.2%;
 }
-.zlk_topBottomRight{
+ /*每个甜品都只为暖你心情开始*/
+ .content1{
     display: flex;
     flex-direction: column;
-
-    height: 50px;
-    width: 40%;
-    background: #2a6496;
-    float:right;
+    justify-content: space-between;
+    height: 140px;
 
 }
+.content1Top{
+    width: 112px;
+    height: 6px;
+    background: black;
+}
+.content1middleTop{
+     font-size: 18px;
+ }
+.content1middleBottom{
+    font-size: 20px;
+    font-weight: bold;
+}
+.content1bottom{
+    width: 275px;
+    font-size: 25px;
+}
+.content1middleLeft{
+    float: left;
+}
+.content1middleRight{
+    float: right;
+    font-weight: bold;
+}
+/*每个甜品都只为暖你心情结束*/
+/*从咖啡到茶饮开始*/
+.content2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 44px;
+    height: 180px;
+    /*background: black;*/
+
+}
+.content2 p{
+    /*letter-spacing:15px;*/
+    font-size: 12px;
+    line-height: 22px;
+}
+/*从咖啡到茶饮结束*/
+/*右边的三个图片开始*/
+.zlk_topBottomRight{
+
+    width: 58%;
+
+
+    position: relative;
+
+}
+
+.zlk_topBottomRightImg1{
+    position: absolute;
+    width: 582px;
+    height: 386px;
+    left:0;
+    top:0;
+    z-index: 50;
+}
+.zlk_topBottomRightImg2{
+    position: absolute;
+    width: 582px;
+    height: 386px;
+    left:20px;
+    top: 9px;
+    z-index: 30;
+    background: rgba(0,0,0,0.4);
+}
+.zlk_topBottomRightImg3{
+    position: absolute;
+    width: 582px;
+    height: 386px;
+    left:40px;
+    top:18px;
+    z-index: 20;
+
+}
+.zhao2{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgba(255,255,255,0.4);
+    z-index: 31;
+
+}
+.zhao3{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgba(255,255,255,0.6);
+    z-index: 21;
+
+}
+/*右边的三个图结束*/
+/*右下的图片开始*/
+.zlk_topBottomImg{
+    position: absolute;
+    right: -72px;
+    bottom: 0;
+    width: 200px;
+    height: 380px;
+
+    z-index: 100;
+}
+/*右下的图片结束*/
 .zlk_middle{
     width: 90%;
     height: 752px;
     background: #ccc;
     margin: 0 auto;
-
 }
