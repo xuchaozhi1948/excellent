@@ -1,4 +1,4 @@
-window.onload=function () {
+$(function () {
     let flag=false;
     $('.wzm_more').click(function () {
         if(flag){
@@ -10,4 +10,5 @@ window.onload=function () {
             flag=true;
         }
     });
-}
+
+})

@@ -72,9 +72,10 @@
     margin:auto;
     z-index: 100;
 }
-.wzm_box2,.wzm_caidan,.zhezhao,.wzm_caidan1{
+.wzm_box2,.zhezhao,.wzm_caidan1{
     display: none;
 }
+
 @media screen and (max-width: 768px) {
     .wzm_box1{
         display: none;
@@ -82,6 +83,7 @@
     .wzm_box{
         height: 50px;
         position: relative;
+        z-index: 2;
     }
     .wzm_box2{
         display: block;
@@ -120,11 +122,11 @@
     }
     @font-face {
         font-family: 'iconfont';
-        src: url('../font/wzm_font1/iconfont.eot');
-        src: url('../font/wzm_font1/iconfont.eot?#iefix') format('embedded-opentype'),
-        url('../font/wzm_font1/iconfont.woff') format('woff'),
-        url('../font/wzm_font1/iconfont.ttf') format('truetype'),
-        url('../font/wzm_font1/iconfont.svg#iconfont') format('svg');
+        src: url('../../font/wzm_font1/iconfont.eot');
+        src: url('../../font/wzm_font1/iconfont.eot?#iefix') format('embedded-opentype'),
+        url('../../font/wzm_font1/iconfont.woff') format('woff'),
+        url('../../font/wzm_font1/iconfont.ttf') format('truetype'),
+        url('../../font/wzm_font1/iconfont.svg#iconfont') format('svg');
     }
     .iconfont{
         font-family:"iconfont" !important;
@@ -135,11 +137,11 @@
     }
     @font-face {
         font-family: 'iconfont';
-        src: url('../font/wzm_font2/iconfont.eot');
-        src: url('../font/wzm_font2/iconfont.eot?#iefix') format('embedded-opentype'),
-        url('../font/wzm_font2/iconfont.woff') format('woff'),
-        url('../font/wzm_font2/iconfont.ttf') format('truetype'),
-        url('../font/wzm_font2/iconfont.svg#iconfont') format('svg');
+        src: url('../../font/wzm_font2/iconfont.eot');
+        src: url('../../font/wzm_font2/iconfont.eot?#iefix') format('embedded-opentype'),
+        url('../../font/wzm_font2/iconfont.woff') format('woff'),
+        url('../../font/wzm_font2/iconfont.ttf') format('truetype'),
+        url('../../font/wzm_font2/iconfont.svg#iconfont') format('svg');
     }
     .iconfont1{
         font-family:"iconfont" !important;

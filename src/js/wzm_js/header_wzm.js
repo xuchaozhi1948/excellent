@@ -1,4 +1,4 @@
-window.onload=function () {
+$(function () {
     $('.wzm_box1 li').click(function () {
         $(this).find('.wzm_backimg').eq(0).addClass('wzm_active1')
         $(this).siblings().find('.wzm_backimg').eq(0).removeClass('wzm_active1');
@@ -12,4 +12,6 @@ window.onload=function () {
         $(this).css({'display':'none'}).prev().find('.wzm_caidan').css({'display':'block'});
         $('.zhezhao').slideUp(500);
     });
-}
+
+})
+
