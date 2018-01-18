@@ -1,3 +1,27 @@
+<?php
+/* Smarty version 3.1.30, created on 2018-01-18 13:39:23
+  from "D:\wamp64\www\nodejs\excellent\views\index\footer_wzm.html" */
+
+/* @var Smarty_Internal_Template $_smarty_tpl */
+if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
+  'version' => '3.1.30',
+  'unifunc' => 'content_5a60a38bb629b1_09843220',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+    '6456b9357d516d90e70342753c752d5eaf04184a' => 
+    array (
+      0 => 'D:\\wamp64\\www\\nodejs\\excellent\\views\\index\\footer_wzm.html',
+      1 => 1516282761,
+      2 => 'file',
+    ),
+  ),
+  'includes' => 
+  array (
+  ),
+),false)) {
+function content_5a60a38bb629b1_09843220 (Smarty_Internal_Template $_smarty_tpl) {
+?>
 
 
 
@@ -117,6 +141,14 @@
 </div>
 </body>
 </html>
-<link rel="stylesheet" href="{CSS_PATH}wzm_css/footer_wzm.css">
-<script src="{JS_PATH}jquery.min.js"></script>
-<script src="{JS_PATH}wzm_js/footer_wzm.js"></script>
+<link rel="stylesheet" href="<?php echo CSS_PATH;?>
+wzm_css/footer_wzm.css">
+<?php echo '<script'; ?>
+ src="<?php echo JS_PATH;?>
+jquery.min.js"><?php echo '</script'; ?>
+>
+<?php echo '<script'; ?>
+ src="<?php echo JS_PATH;?>
+wzm_js/footer_wzm.js"><?php echo '</script'; ?>
+><?php }
+}

@@ -8,9 +8,10 @@
     width: 100%;
     height: 840px;
     position: relative;
-    top:-145px;
+    /*top:1450px;*/
     background: #1c1c1c;
     overflow: hidden;
+    z-index: -1;
 }
 .wzm_footer1{
     width: 1200px;

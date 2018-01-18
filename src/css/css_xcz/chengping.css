@@ -1,0 +1,505 @@
+/* 大于1024 */
+@media screen and (min-width: 1024px){
+    .xcz_focus{
+        width: 100%;
+        height: 410px;
+        background: url("../../img/banner_02.png")no-repeat;
+        position: relative;
+    }
+    .xcz_focus h1{
+        color: #fff;
+        font-size: 36px;
+        text-align: center;
+        padding-top: 155px;
+        font-weight: normal;
+    }
+    .xcz_focus h2{
+        color: #fff;
+        font-size: 12px;
+        line-height: 18px;
+        text-align: center;
+        font-weight: normal;
+    }
+    .xcz_focus p{
+        width: 178px;
+        height: 15px;
+        background: #E5BC6F;
+        color: #fff;
+        font-size: 14px;
+        line-height: 15px;
+        margin: 0 auto;
+        text-align: center;
+        font-weight: normal;
+        margin-top: 5px;
+
+    }
+    .xcz_content{
+        width: 1200px;
+        height: auto;
+        background: #ffffff;
+        background-image: url("../../img/yuandian_.png");
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 457px;
+        left: calc(50% - 600px);
+        box-shadow: 0 5px 50px rgba(0,0,0,0.1);
+    }
+    .xcz_content-box{
+        width: 1000px;
+        height: auto;
+        border-bottom: 1px solid #CECECE;
+        margin: 0 auto;
+    }
+    .xcz_content-top{
+        width: 1000px;
+        height: 55px;
+        border-bottom: 1px solid #CECECE;
+        margin: 18px auto 0;
+        line-height: 55px;
+        color:#E5BC6F;
+        font-family: "宋体";
+    }
+    .xcz_content-top b{
+        margin-left: -4px;
+    }
+    .xcz_content-top i{
+        margin:0 5px;
+    }
+
+    /*===========================*/
+    .xcz_cp-cont{
+        width: 100%;
+        height: auto;
+        margin-bottom: 115px;
+        position: relative;
+
+    }
+    .xcz_cp-login{
+        margin: 24px 0 80px;
+        width: 118px;
+        height: 30px;
+        float: right;
+        border: 1px solid #CAA55F;
+        border-radius: 20px;
+        text-align: center;
+        line-height: 30px;
+        color: #CAA55F;
+    }
+    .xcz_cp-login a{
+        font-weight: bold;
+        font-size: 14px;
+        color: #CAA55F;
+    }
+    .xcz_cp-title{
+        width: 370px;
+        height: 100px;
+        padding: 0 30px;
+        background: #FFF;
+        position: absolute;
+        top: 91px;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+    .xcz_cp-title h5{
+        text-align: center;
+        font-size: 12px;
+        line-height: 26px;
+    }
+    .xcz_cp-title p{
+        text-align: center;
+        font-size: 12px;
+        font-family:"San Francisco Display";
+        line-height: 24px;
+    }
+    .xcz_cp-box{
+        width: 100%;
+        height: 430px;
+        background: url("../../img/cpbjt4.png")no-repeat;
+        background-position: bottom left;
+        border:3px dotted #CAA55F;
+        overflow: hidden;
+    }
+    .xcz_cp-jrwm{
+        width: 140px;
+        height: 50px;
+        background: #CAA55F;
+        margin: 60px auto;
+        border-radius: 30px;
+        color: #fff;
+        line-height: 50px;
+        text-align: center;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .xcz_cp-box{
+        padding-top: 120px;
+        width: 100%;
+    }
+    .xcz_table{
+        width: 100%;
+    }
+    .xcz_table-th{
+        width: 33%;
+        height: 50px;
+        font-size: 16px;
+    }
+    .xcz_table-hang{
+        height: 70px;
+        text-align: center;
+        font-size: 14px;
+        color: #666;
+    }
+    .xcz_table-th2{
+        color: #333;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+/* 小于1024 */
+@media screen and (max-width: 1024px) {
+    .xcz_focus{
+        width: 100%;
+        height: 268px;
+        background: url("../../img/banner_02.png")no-repeat;
+        position: relative;
+    }
+    .xcz_focus h1{
+        color: #fff;
+        font-size: 36px;
+        text-align: center;
+        padding-top: 53px;
+        font-weight: normal;
+    }
+    .xcz_focus h2{
+        color: #fff;
+        font-size: 14px;
+        line-height: 18px;
+        text-align: center;
+        font-weight: normal;
+    }
+    .xcz_focus p{
+        width: 178px;
+        height: 18px;
+        background: #E5BC6F;
+        color: #fff;
+        font-size: 16px;
+        line-height: 15px;
+        margin: 5px auto;
+        text-align: center;
+        font-weight: normal;
+    }
+    .xcz_content{
+        width: calc(100% - 50px);
+        height: auto;
+        background: #ffffff;
+        background-image: url("../../img/yuandian_.png");
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 268px;
+        left: 0;
+        box-shadow: 0 5px 50px rgba(0,0,0,0.1);
+        padding: 0 25px;
+    }
+    .xcz_content-box{
+        width: 100%;
+        height: auto;
+        border-bottom: 1px solid #CECECE;
+        margin: 0 auto;
+    }
+    .xcz_content-top{
+        width: 100%;
+        height: 55px;
+        border-bottom: 0px solid #CECECE;
+        margin: 18px auto 0;
+        line-height: 55px;
+        color:#E5BC6F;
+        font-family: "宋体";
+    }
+    .xcz_content-top b{
+        margin-left: -4px;
+    }
+    .xcz_content-top i{
+        margin:0 5px;
+    }
+    .xcz_cp-cont{
+        width: 100%;
+        height: auto;
+        margin-bottom: 115px;
+        position: relative;
+
+    }
+    .xcz_cp-login{
+        margin: 24px 0 80px;
+        width: 118px;
+        height: 30px;
+        float: right;
+        border: 1px solid #CAA55F;
+        border-radius: 20px;
+        text-align: center;
+        line-height: 30px;
+        color: #CAA55F;
+    }
+    .xcz_cp-login a{
+        font-size: 14px;
+        font-weight: bold;
+        color: #CAA55F;
+    }
+    .xcz_cp-title{
+        width: 370px;
+        height: 100px;
+        padding: 0 30px;
+        background: #FFF;
+        position: absolute;
+        top: 91px;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+    .xcz_cp-title h5{
+        text-align: center;
+        font-size: 12px;
+        line-height: 26px;
+    }
+    .xcz_cp-title p{
+        text-align: center;
+        font-size: 12px;
+        font-family:"San Francisco Display";
+        line-height: 24px;
+    }
+    .xcz_cp-box{
+        width: 100%;
+        height: 430px;
+        background: url("../../img/cpbjt4.png")no-repeat;
+        background-position: bottom left;
+        border:3px dotted #CAA55F;
+        overflow: hidden;
+    }
+    .xcz_cp-jrwm{
+        width: 140px;
+        height: 50px;
+        background: #CAA55F;
+        margin: 60px auto;
+        border-radius: 30px;
+        color: #fff;
+        line-height: 50px;
+        text-align: center;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .xcz_cp-box{
+        padding-top: 120px;
+        width: 100%;
+    }
+    .xcz_table{
+        width: 100%;
+    }
+    .xcz_table-th{
+        width: 33%;
+        height: 50px;
+        font-size: 16px;
+    }
+    .xcz_table-hang{
+        height: 70px;
+        text-align: center;
+        font-size: 14px;
+        color: #666;
+    }
+    .xcz_table-th2{
+        color: #333;
+
+    }
+
+}
+/* 小于768 */
+@media screen and (max-width: 768px){
+    .xcz_focus{
+        width: 100%;
+        height: 200px;
+        background: url("../../img/banner_02.png")no-repeat;
+        position: relative;
+    }
+    .xcz_focus h1{
+        color: #fff;
+        font-size: 36px;
+        text-align: center;
+        padding-top: 53px;
+        font-weight: normal;
+    }
+    .xcz_focus h2{
+        color: #fff;
+        font-size: 14px;
+        line-height: 18px;
+        text-align: center;
+        font-weight: normal;
+    }
+    .xcz_focus p{
+        width: 178px;
+        height: 18px;
+        background: #E5BC6F;
+        color: #fff;
+        font-size: 16px;
+        line-height: 15px;
+        margin: 5px auto;
+        text-align: center;
+        font-weight: normal;
+    }
+    .xcz_content{
+        width: calc(100% - 50px);
+        height: auto;
+        background: #ffffff;
+        background-image: url("../../img/yuandian_.png");
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 200px;
+        left: 0;
+        box-shadow: 0 5px 50px rgba(0,0,0,0.1);
+        padding: 0 25px;
+    }
+    .xcz_content-box{
+        width: 100%;
+        height: auto;
+        border-bottom: 0px solid #CECECE;
+        margin: 0 auto;
+    }
+    .xcz_content-top{
+        width: 100%;
+        height: 55px;
+        border-bottom: 0px solid #CECECE;
+        margin: 18px auto 0;
+        line-height: 55px;
+        color:#E5BC6F;
+        font-family: "宋体";
+    }
+    .xcz_content-top b{
+        margin-left: -4px;
+    }
+    .xcz_content-top i{
+        margin:0 5px;
+    }
+    .xcz_cp-cont{
+        width: 100%;
+        height: auto;
+        margin-bottom: 115px;
+        position: relative;
+
+    }
+    .xcz_cp-login{
+        margin: -40px 0 60px;
+        width: 118px;
+        height: 30px;
+        float: right;
+        border: 1px solid #CAA55F;
+        border-radius: 20px;
+        text-align: center;
+        line-height: 30px;
+        color: #CAA55F;
+    }
+    .xcz_cp-login a{
+        font-size: 14px;
+        font-weight: bold;
+        color: #CAA55F;
+    }
+    .xcz_cp-title{
+        width: 60%;
+        height: 100px;
+        padding: 0 30px;
+        background: #FFF;
+        position: absolute;
+        top: 30px;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+    .xcz_cp-title img{
+        width: 100%;
+    }
+    .xcz_cp-title h5{
+        text-align: center;
+        font-size: 12px;
+        line-height: 26px;
+    }
+    .xcz_cp-title p{
+        text-align: center;
+        font-size: 12px;
+        font-family:"San Francisco Display";
+        line-height: 24px;
+    }
+    .xcz_cp-box{
+        width: 100%;
+        height: auto;
+        padding-bottom: 40px;
+        background: url("../../img/cpbjt4.png")no-repeat;
+        background-position: bottom left;
+        border:3px dotted #CAA55F;
+        overflow: hidden;
+    }
+    .xcz_cp-jrwm{
+        width: 140px;
+        height: 50px;
+        background: #CAA55F;
+        margin: 45px auto;
+        border-radius: 30px;
+        color: #fff;
+        line-height: 50px;
+        text-align: center;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .xcz_cp-box{
+        padding-top: 90px;
+        width: 100%;
+    }
+    .xcz_table{
+        width: 100%;
+        padding-left: 40px;
+    }
+    .xcz_table-th{
+        display: none;
+        width: 33%;
+        height: 50px;
+        font-size: 16px;
+    }
+    .xcz_table-hang{
+        display: flex;
+        flex-wrap:wrap;
+        text-align: left;
+        height: 70px;
+        font-size: 14px;
+        color: #666;
+    }
+    .xcz_table-hang td{
+        display: block;
+        padding-left: 30px;
+        width: 55%;
+        text-align: center;
+    }
+    .xcz_table-hang td:last-child{
+        /*display: block;*/
+        padding-left: 20px;
+        text-align: center;
+        width: 25%;
+    }
+    .xcz_table-th2{
+        color: #333;
+        width: 80%;
+
+    }
+
+}

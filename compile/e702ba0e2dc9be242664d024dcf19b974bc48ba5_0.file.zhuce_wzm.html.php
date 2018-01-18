@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2018-01-18 08:51:33
+/* Smarty version 3.1.30, created on 2018-01-18 07:21:03
   from "F:\wamp\www\php\a1.16\excellent\views\index\zhuce_wzm.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5a6052055f6158_86026303',
+  'unifunc' => 'content_5a603ccf01ccd9_80139480',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'e702ba0e2dc9be242664d024dcf19b974bc48ba5' => 
     array (
       0 => 'F:\\wamp\\www\\php\\a1.16\\excellent\\views\\index\\zhuce_wzm.html',
-      1 => 1516261890,
+      1 => 1516256460,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5a6052055f6158_86026303 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5a603ccf01ccd9_80139480 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!doctype html>
 <html lang="en">
@@ -78,7 +78,7 @@ wzm_img/drawing_40.png" alt="" class="wzm_titleimg">
             <div class="denglu">注册</div>
             <div class="user_login">USER ZHUCE</div>
         </div>
-        <form class="loginli" action="?a=validation_zhuce" method="post">
+        <form class="loginli" action="?a=validation_login" method="post">
             <div class="a">
                 <div class="wzm_close iconfont">&#xe61a;</div>
             </div>

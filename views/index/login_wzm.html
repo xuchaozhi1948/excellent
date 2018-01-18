@@ -10,13 +10,6 @@
     <script src="{JS_PATH}wzm_js/login_wzm.js"></script>
     <link rel="stylesheet" href="{CSS_PATH}wzm_css/login_wzm.css">
     <script src="{JS_PATH}wzm_js/rem.js"></script>
-    <script src="{JS_PATH}wzm_js/jquery.validate.js"></script>
-    <script src="http://static.runoob.com/assets/jquery-validation-1.14.0/dist/localization/messages_zh.js"></script>
-    <style>
-        *{
-            font-size: 12px;
-        }
-    </style>
 </head>
 <body>
 <div class="wzm_zhezhao">
@@ -30,18 +23,18 @@
              <div class="denglu">登陆</div>
              <div class="user_login">USER　LOGIN</div>
          </div>
-         <form class="loginli" method="post" action="?a=validation_login">
+         <form class="loginli">
              <div class="a">
                  <div class="wzm_close iconfont">&#xe61a;</div>
              </div>
              <div class="yonghu">
                  用户名 <span>NAME</span>
              </div>
-             <input type="text" name="user" class="username iconfont" placeholder="&#xe851;请输入用户名/手机号/邮箱">
+             <input type="text" class="username iconfont" placeholder="&#xe851;请输入用户名/手机号/邮箱">
              <div class="password">
                  密码 <span>PASSWORD</span>
              </div>
-             <input type="password" name="pass" class="username iconfont" placeholder="&#xe652;请输入密码">
+             <input type="password" class="username iconfont" placeholder="&#xe652;请输入密码">
              <div class="gongneng">
                  <div class="passradio">
                  <input type="radio" class="passradios">
@@ -63,18 +56,4 @@
      </div>
 </div>
 </body>
-<script>
-    $('form').validate({
-        rules:{
-            user:{
-                required:true,
-            },
-            pass:{
-                required:true,
-                minlength:6,
-                maxlength:10,
-            }
-        }
-    })
-</script>
 </html>

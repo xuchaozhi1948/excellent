@@ -1,12 +1,44 @@
-{include file='index/header_wzm.html'}
+<?php
+/* Smarty version 3.1.30, created on 2018-01-18 13:02:53
+  from "D:\wamp64\www\nodejs\excellent\views\index\index.html" */
+
+/* @var Smarty_Internal_Template $_smarty_tpl */
+if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
+  'version' => '3.1.30',
+  'unifunc' => 'content_5a609afd838f20_36710286',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+    '76821e4ab698cf640cfcf62102ec124d8af3105b' => 
+    array (
+      0 => 'D:\\wamp64\\www\\nodejs\\excellent\\views\\index\\index.html',
+      1 => 1516278916,
+      2 => 'file',
+    ),
+  ),
+  'includes' => 
+  array (
+    'file:index/header_wzm.html' => 1,
+    'file:index/footer_wzm.html' => 1,
+  ),
+),false)) {
+function content_5a609afd838f20_36710286 (Smarty_Internal_Template $_smarty_tpl) {
+$_smarty_tpl->_subTemplateRender("file:index/header_wzm.html", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link rel="stylesheet" href="{CSS_PATH}index_zp.css">
-    <link rel="stylesheet" href="{CSS_PATH}swiper.min.css">
-    <script src="{JS_PATH}swiper.min.js"></script>
+    <link rel="stylesheet" href="<?php echo CSS_PATH;?>
+index_zp.css">
+    <link rel="stylesheet" href="<?php echo CSS_PATH;?>
+swiper.min.css">
+    <?php echo '<script'; ?>
+ src="<?php echo JS_PATH;?>
+swiper.min.js"><?php echo '</script'; ?>
+>
 </head>
 <body>
 
@@ -16,20 +48,24 @@
         <div class="swiper-slide">
             <div class="banner_zp">
                 <div class="bannermain_zp">
-                    <img src="{IMG_PATH}banner_zp_02.png" alt="">
+                    <img src="<?php echo IMG_PATH;?>
+banner_zp_02.png" alt="">
                     <div class="shade_zp">
-                        <img src="{IMG_PATH}bannerfont_zp.png" alt="">
+                        <img src="<?php echo IMG_PATH;?>
+bannerfont_zp.png" alt="">
                         <div class="bncontent_zp">
                             <div class="bnpostion_zp">
                                 <div class="qiu_zp">
                                     深秋 の 邂逅
                                     <div class="ye">
-                                        <img src="{IMG_PATH}ye.png" alt="">
+                                        <img src="<?php echo IMG_PATH;?>
+ye.png" alt="">
                                     </div>
                                 </div>
                                 <div class="englishtext">
                                     <div class="englishtext-left">
-                                        <img src="{IMG_PATH}late_autumn.png" alt="">
+                                        <img src="<?php echo IMG_PATH;?>
+late_autumn.png" alt="">
                                     </div>
                                     <div class="englishtext-right">
                                        ENCOUNTERS
@@ -58,20 +94,24 @@
         <div class="swiper-slide">
             <div class="banner_zp">
             <div class="bannermain_zp">
-                <img src="{IMG_PATH}banner_zp_02.png" alt="">
+                <img src="<?php echo IMG_PATH;?>
+banner_zp_02.png" alt="">
                 <div class="shade_zp">
-                    <img src="{IMG_PATH}bannerfont_zp.png" alt="">
+                    <img src="<?php echo IMG_PATH;?>
+bannerfont_zp.png" alt="">
                     <div class="bncontent_zp">
                         <div class="bnpostion_zp">
                             <div class="qiu_zp">
                                 深秋 の 邂逅
                                 <div class="ye">
-                                    <img src="{IMG_PATH}ye.png" alt="">
+                                    <img src="<?php echo IMG_PATH;?>
+ye.png" alt="">
                                 </div>
                             </div>
                             <div class="englishtext">
                                 <div class="englishtext-left">
-                                    <img src="{IMG_PATH}late_autumn.png" alt="">
+                                    <img src="<?php echo IMG_PATH;?>
+late_autumn.png" alt="">
                                 </div>
                                 <div class="englishtext-right">
                                     ENCOUNTERS
@@ -100,20 +140,24 @@
         <div class="swiper-slide">
             <div class="banner_zp">
             <div class="bannermain_zp">
-                <img src="{IMG_PATH}banner_zp_02.png" alt="">
+                <img src="<?php echo IMG_PATH;?>
+banner_zp_02.png" alt="">
                 <div class="shade_zp">
-                    <img src="{IMG_PATH}bannerfont_zp.png" alt="">
+                    <img src="<?php echo IMG_PATH;?>
+bannerfont_zp.png" alt="">
                     <div class="bncontent_zp">
                         <div class="bnpostion_zp">
                             <div class="qiu_zp">
                                 深秋 の 邂逅
                                 <div class="ye">
-                                    <img src="{IMG_PATH}ye.png" alt="">
+                                    <img src="<?php echo IMG_PATH;?>
+ye.png" alt="">
                                 </div>
                             </div>
                             <div class="englishtext">
                                 <div class="englishtext-left">
-                                    <img src="{IMG_PATH}late_autumn.png" alt="">
+                                    <img src="<?php echo IMG_PATH;?>
+late_autumn.png" alt="">
                                 </div>
                                 <div class="englishtext-right">
                                     ENCOUNTERS
@@ -147,18 +191,22 @@
 </div>
 <nav>
    <div class="title01_zp">
-       <img src="{IMG_PATH}title_01.png" alt="">
+       <img src="<?php echo IMG_PATH;?>
+title_01.png" alt="">
    </div>
     <div class="content01_image">
 
         <div class="content01_imageleft">
-            <img src="{IMG_PATH}juxing.png" alt="">
+            <img src="<?php echo IMG_PATH;?>
+juxing.png" alt="">
             <div class="drawing_zp">
-                <img src="{IMG_PATH}drawing_01.png" alt="">
+                <img src="<?php echo IMG_PATH;?>
+drawing_01.png" alt="">
             </div>
         </div>
         <div class="content01_imageright">
-            <h2>LATE <span>AUTUMN</span><img src="{IMG_PATH}pic_01.png" alt=""></h2>
+            <h2>LATE <span>AUTUMN</span><img src="<?php echo IMG_PATH;?>
+pic_01.png" alt=""></h2>
             <h2>ENCOUNTERS</h2>
             <span class="yeqiu">深/秋/邂/逅   一/叶/知/秋</span>
 
@@ -228,20 +276,25 @@
         <span>you & me</span>
     </div>
     <div class="only-img">
-        <img src="{IMG_PATH}pic_02.png" alt="">
+        <img src="<?php echo IMG_PATH;?>
+pic_02.png" alt="">
     </div>
-    <img src="{IMG_PATH}drawing_02.png" alt="">
+    <img src="<?php echo IMG_PATH;?>
+drawing_02.png" alt="">
 </div>
 <nav>
     <div class="title02_zp">
         <div class="imgleft">
-            <img src="{IMG_PATH}pic_11.png" alt="" >
+            <img src="<?php echo IMG_PATH;?>
+pic_11.png" alt="" >
         </div>
         <div class="imgcenter">
-            <img src="{IMG_PATH}title_02.png" alt="">
+            <img src="<?php echo IMG_PATH;?>
+title_02.png" alt="">
         </div>
         <div class="imgright">
-            <img src="{IMG_PATH}pic__11a.png" alt="">
+            <img src="<?php echo IMG_PATH;?>
+pic__11a.png" alt="">
         </div>
     </div>
     <div class="lunbo_zp">
@@ -254,7 +307,8 @@
            </div>
             <p class="lable">一/叶/知/秋/如/隔/三/秋</p>
             <div class="lablepic">
-                <img src="{IMG_PATH}pic_07.png" alt="">
+                <img src="<?php echo IMG_PATH;?>
+pic_07.png" alt="">
             </div>
             <div class="lb_leftbtn">
                 <p>
@@ -266,33 +320,40 @@
                 </p>
             </div>
             <div class="lb_pict">
-                <img src="{IMG_PATH}drawing_04.png" alt="">
+                <img src="<?php echo IMG_PATH;?>
+drawing_04.png" alt="">
             </div>
             <div class="lb_pict">
-                <img src="{IMG_PATH}drawing_04.png" alt="">
+                <img src="<?php echo IMG_PATH;?>
+drawing_04.png" alt="">
             </div>
         </div>
         <div class="lunbo_right">
             <div class="lb_picy">
-                <img src="{IMG_PATH}drawing_03.png" alt="">
+                <img src="<?php echo IMG_PATH;?>
+drawing_03.png" alt="">
             </div>
             <div class="lb_right">
                 <div class="lb_leftprice">
-                    <div class="price_name"><div class="price_title">雪山迷雾</div> <img src="{IMG_PATH}pic_05.png" alt=""></div>
+                    <div class="price_name"><div class="price_title">雪山迷雾</div> <img src="<?php echo IMG_PATH;?>
+pic_05.png" alt=""></div>
                     <div class="price">套餐价:¥32.6</div>
                 </div>
 
                 <div class="lb_rightImg">
-                    <img src="{IMG_PATH}pic_06.png" alt="">
+                    <img src="<?php echo IMG_PATH;?>
+pic_06.png" alt="">
                 </div>
                 
             </div>
         </div>
         <div class="left_pos">
-            <img src="{IMG_PATH}pic_03_01.png" alt="">
+            <img src="<?php echo IMG_PATH;?>
+pic_03_01.png" alt="">
         </div>
         <div class="right_pos">
-            <img src="{IMG_PATH}pic_03_01_02.png" alt="">
+            <img src="<?php echo IMG_PATH;?>
+pic_03_01_02.png" alt="">
         </div>
     </div>
 
@@ -309,13 +370,16 @@
         </span>
     </div>
     <div class="f_only-img">
-        <img src="{IMG_PATH}drawing_06.png" alt="">
+        <img src="<?php echo IMG_PATH;?>
+drawing_06.png" alt="">
     </div>
-    <img src="{IMG_PATH}drawing_05.png" alt="">
+    <img src="<?php echo IMG_PATH;?>
+drawing_05.png" alt="">
 </div>
 <nav class="three_nav">
     <div class="title03_zp">
-        <img src="{IMG_PATH}title_03.png" alt="">
+        <img src="<?php echo IMG_PATH;?>
+title_03.png" alt="">
     </div>
     <div class="member_text">
         提供完善的工作环境<br>
@@ -337,7 +401,8 @@
 </nav>
 <div class="member-banner">
     <div class="m_only-left">
-        <img src="{IMG_PATH}team_01.png" alt="">
+        <img src="<?php echo IMG_PATH;?>
+team_01.png" alt="">
     </div>
     <div class="m_only-content">
         <div class="" style="margin-bottom: 5px">赫雅 • 艾达斯</div>
@@ -348,10 +413,12 @@
             are so cheap and so delicious
         </p>
         <div class="veronesse">
-            <img src="{IMG_PATH}pic_003.png" alt="">
+            <img src="<?php echo IMG_PATH;?>
+pic_003.png" alt="">
         </div>
         <div class="member_foot">
-            <img src="{IMG_PATH}pic_08.png" alt="">
+            <img src="<?php echo IMG_PATH;?>
+pic_08.png" alt="">
         </div>
 
     </div>
@@ -363,57 +430,70 @@
 
             <li>
                 <div class="li_imgs">
-                    <img src="{IMG_PATH}touxiang_02.png" alt="">
+                    <img src="<?php echo IMG_PATH;?>
+touxiang_02.png" alt="">
                 </div>
             </li>
             <li class="m_nth2_li">
                 <div class="li_imgs">
-                    <img src="{IMG_PATH}touxiang_01.png" alt="">
+                    <img src="<?php echo IMG_PATH;?>
+touxiang_01.png" alt="">
                 </div>
                 <div class="effect">
-                    <img src="{IMG_PATH}pic_09.png" alt="">
+                    <img src="<?php echo IMG_PATH;?>
+pic_09.png" alt="">
                 </div>
             </li>
             <li>
                 <div class="li_imgs">
-                    <img src="{IMG_PATH}touxiang_03.png" alt="">
+                    <img src="<?php echo IMG_PATH;?>
+touxiang_03.png" alt="">
                 </div>
             </li>
 
     </div>
-    <img src="{IMG_PATH}drawing_07.png" alt="">
+    <img src="<?php echo IMG_PATH;?>
+drawing_07.png" alt="">
 </div>
 <nav class="four_nav">
     <div class="title02_zp">
         <div class="imgleft">
-            <img src="{IMG_PATH}pic_11.png" alt="" >
+            <img src="<?php echo IMG_PATH;?>
+pic_11.png" alt="" >
         </div>
         <div class="imgcenter">
-            <img src="{IMG_PATH}title_04.png" alt="">
+            <img src="<?php echo IMG_PATH;?>
+title_04.png" alt="">
         </div>
         <div class="imgright">
-            <img src="{IMG_PATH}pic__11a.png" alt="">
+            <img src="<?php echo IMG_PATH;?>
+pic__11a.png" alt="">
         </div>
     </div>
     <div class="content_show">
         <div class="content_show_left">
-            <img src="{IMG_PATH}pic_001.png" alt="">
+            <img src="<?php echo IMG_PATH;?>
+pic_001.png" alt="">
         </div>
         <div class="content_show_right">
-            <img src="{IMG_PATH}pic_002.png" alt="">
+            <img src="<?php echo IMG_PATH;?>
+pic_002.png" alt="">
         </div>
 
         <div class="content_btn_left">
-            <img src="{IMG_PATH}pic_001.png" alt="">
+            <img src="<?php echo IMG_PATH;?>
+pic_001.png" alt="">
         </div>
         <div class="content_btn_right">
-            <img src="{IMG_PATH}pic_002.png" alt="">
+            <img src="<?php echo IMG_PATH;?>
+pic_002.png" alt="">
         </div>
         <div class="content_list">
             <ul>
                 <li>
                     <div class="li_img">
-                        <img src="{IMG_PATH}drawing_08.png" alt="">
+                        <img src="<?php echo IMG_PATH;?>
+drawing_08.png" alt="">
                     </div>
                     <div class="li_content">
                         <p>深秋的邂逅</p>
@@ -424,7 +504,8 @@
                 </li>
                 <li>
                     <div class="li_img">
-                        <img src="{IMG_PATH}drawing_08.png" alt="">
+                        <img src="<?php echo IMG_PATH;?>
+drawing_08.png" alt="">
                     </div>
                     <div class="li_content">
                         <p>深秋的邂逅</p>
@@ -435,7 +516,8 @@
                 </li>
                 <li>
                     <div class="li_img">
-                        <img src="{IMG_PATH}drawing_08.png" alt="">
+                        <img src="<?php echo IMG_PATH;?>
+drawing_08.png" alt="">
                     </div>
                     <div class="li_content">
                         <p>深秋的邂逅</p>
@@ -464,7 +546,8 @@
                 </p>
             </div>
             <div class="pic_when">
-                <img src="{IMG_PATH}pic_12.png" alt="">
+                <img src="<?php echo IMG_PATH;?>
+pic_12.png" alt="">
             </div>
         </div>
     </div>
@@ -474,7 +557,8 @@
             <ul>
                 <li>
                     <div class="li_img">
-                        <img src="{IMG_PATH}drawing_08.png" alt="">
+                        <img src="<?php echo IMG_PATH;?>
+drawing_08.png" alt="">
                     </div>
                     <div class="li_content">
                         <p>深秋的邂逅</p>
@@ -488,7 +572,8 @@
                 </li>
                 <li>
                     <div class="li_img">
-                        <img src="{IMG_PATH}drawing_08.png" alt="">
+                        <img src="<?php echo IMG_PATH;?>
+drawing_08.png" alt="">
                     </div>
                     <div class="li_content">
                         <p>深秋的邂逅</p>
@@ -502,7 +587,8 @@
                 </li>
                 <li>
                     <div class="li_img">
-                        <img src="{IMG_PATH}drawing_08.png" alt="">
+                        <img src="<?php echo IMG_PATH;?>
+drawing_08.png" alt="">
                     </div>
                     <div class="li_content">
                         <p>深秋的邂逅</p>
@@ -517,10 +603,12 @@
 
 
                 <div class="slide_top">
-                    <img src="{IMG_PATH}pic_001.png" alt="">
+                    <img src="<?php echo IMG_PATH;?>
+pic_001.png" alt="">
                 </div>
                 <div class="slide_bottom">
-                    <img src="{IMG_PATH}pic_001.png" alt="">
+                    <img src="<?php echo IMG_PATH;?>
+pic_001.png" alt="">
                 </div>
             </ul>
         </div>
@@ -529,15 +617,20 @@
 
 
 </nav>
-{include file='index/footer_wzm.html'}
+<?php $_smarty_tpl->_subTemplateRender("file:index/footer_wzm.html", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
+?>
+
 
 </body>
-<script>
+<?php echo '<script'; ?>
+>
     var swiper = new Swiper('.swiper-container', {
         navigation: {
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev',
         },
     });
-</script>
-</html>
+<?php echo '</script'; ?>
+>
+</html><?php }
+}
