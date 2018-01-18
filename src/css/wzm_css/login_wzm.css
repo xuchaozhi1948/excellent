@@ -1,0 +1,320 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 微软雅黑;
+}
+html,body{
+    height: 100%;
+}
+@font-face {
+    font-family: 'iconfont';
+    src: url('../../font/wzm_font3/iconfont.eot');
+    src: url('../../font/wzm_font3/iconfont.eot?#iefix') format('embedded-opentype'),
+    url('../../font/wzm_font3/iconfont.woff') format('woff'),
+    url('../../font/wzm_font3/iconfont.ttf') format('truetype'),
+    url('../../font/wzm_font3/iconfont.svg#iconfont') format('svg');
+}
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+.wzm_zhezhao{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: rgba(0,0,0,0.3);
+}
+.wzm_login{
+    width: 5.25rem;
+    height: 5.25rem;
+    background: #fff;
+    margin:1rem auto;
+    border: 1px solid #caa55f;
+}
+.kuang{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.wzm_logo{
+    width: 1.85rem;
+    height: 1.36rem;
+    position: absolute;
+    left:-0.4rem;
+    top: -1.6rem;
+    z-index: 2;
+}
+.wzm_logoimg{
+    width: 100%;
+    height: 100%;
+}
+.wzm_title{
+    width: 3rem;
+    height: 0.9rem;
+    position: absolute;
+    left:0.5rem;
+    top:-1.6rem;
+}
+.wzm_titleimg{
+    width:100%;
+    height: 100%;
+}
+.denglu{
+    width: auto;
+    height: auto;
+    font-size: 0.22rem;
+    line-height: 0.5rem;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top:0.18rem;
+    right: 1.35rem;
+}
+.user_login{
+    width: auto;
+    height: auto;
+    font-size: 0.16rem;
+    color: #fff;
+    line-height: 0.3rem;
+    position: absolute;
+    top:0.6rem;
+    right:0.72rem;
+}
+.loginli{
+    width: 2.85rem;
+    height: 4.05rem;
+    margin: 0.6rem 1.2rem;
+}
+.wzm_close{
+    width: 0.24rem;
+    height: 0.24rem;
+    font-size: 0.24rem;
+    position: relative;
+    float: right;
+    color: #a6a6a6;
+    margin-bottom: 0.3rem;
+    cursor: pointer;
+}
+.a{
+    width: 3.1rem;
+    height: 0.24rem;
+}
+.yonghu,.password{
+    width: 100%;
+    height: auto;
+    font-size: 0.16rem;
+    margin-top: 0.3rem;
+    margin-bottom: 0.06rem;
+    font-family: 微软雅黑;
+}
+.password{
+    margin-top: 0;
+}
+.yonghu span,.password span{
+    font-size: 0.14rem;
+    line-height: 0.14rem;
+    margin-left: 0.1rem;
+    color: #cbc9c9;
+    font-family: 微软雅黑;
+}
+.username{
+    width: 3.1rem;
+    height: 0.38rem;
+    border: 1px solid #cbc9c9;
+    border-radius: 5px;
+    color: #cecece;
+    line-height: 0.38rem;
+    margin-bottom: 0.36rem;
+    padding: 0 0.1rem;
+    box-sizing: border-box;
+    outline: none;
+    font-size: 0.12rem;
+    display: block;
+}
+.gongneng{
+    width: 3.1rem;
+    height: 0.18rem;
+    margin-bottom: 0.5rem;
+}
+.passradio{
+    width:0.17rem;
+    height: 0.17rem;
+    background: #caa55f;
+    float: left;
+    margin-right: 0.08rem;
+    border-radius: 50%;
+    position: relative;
+}
+.passradios{
+    width: 0.14rem;
+    height: 0.14rem;
+    border-radius: 50%;
+    margin-left: 1px;
+    margin-top: -3px;
+    position: absolute;
+    left:0.01rem;
+    top:0.05rem;
+}
+.passradio span{
+    display: block;
+    width: 0.81rem;
+    height: 0.18rem;
+    font-size: 0.12rem;
+    line-height: 0.18rem;
+    color: #cbc9c9;
+    margin-left: 0.25rem;
+}
+.wangjipass{
+    width: auto;
+    height: 100%;
+    color: #cbc9c9;
+    font-size: 0.12rem;
+    line-height: 0.18rem;
+    float: right;
+    border-bottom: 1px solid #caa55f;
+}
+.anniu{
+    width: 100%;
+    height: 0.26rem;
+    margin-bottom: 0.3rem;
+}
+.lijilogin,.zhuce{
+    width: 0.84rem;
+    height: 0.26rem;
+    float: left;
+    margin-left: 0.29rem;
+    margin-right: 0.29rem;
+    background: #caa55f;
+    border-radius: 0.12rem;
+    line-height: 0.27rem;
+    text-align: center;
+    color: #fff;
+    font-size: 0.14rem;
+    font-family: 微软雅黑;
+}
+.zhuce{
+    width: 0.82rem;
+    height: 0.24rem;
+    border: 1px solid #caa55f;
+    background: #fff;
+    color: #222;
+}
+.loginfangshi{
+    width: 1.68rem;
+    height: 0.3rem;
+    margin: 0 auto;
+}
+.weixin{
+    width: 0.32rem;
+    height: 0.32rem;
+    float: left;
+    margin-right: 0.24rem;
+    font-size: 0.32rem;
+    color: #a6a6a6;
+}
+.weixin:nth-child(2){
+    font-size: 0.32rem;
+}
+.weixin:nth-child(3){
+    margin-right: 0;
+}
+.weixins:nth-child(1){
+    font-size: 0.34rem;
+}
+.weixins:nth-child(2),.weixins:nth-child(3){
+    font-size: 0.32rem;
+}
+
+@media screen and (max-width: 768px) {
+    .wzm_login{
+        width: 7rem;
+        height: 7rem;
+        top:1.5rem;
+    }
+    .loginli{
+        width: 4.1rem;
+        margin-left: 1.46rem;
+    }
+    .username,.gongneng,.anniu,.loginfangshi{
+        width: 4.1rem;
+        height: 0.5rem;
+    }
+    .username,.password{
+        font-size: 0.22rem;
+        font-family: 微软雅黑;
+    }
+    .passradio{
+        width: 0.24rem;
+        height: 0.24rem;
+        margin-right: 0.1rem;
+    }
+    .passradio span{
+        width: 2rem;
+        height: auto;
+        font-size: 0.24rem;
+        line-height: 0.24rem;
+        margin-left: 0.4rem;
+        font-family: 微软雅黑;
+    }
+    .passradios{
+        width: 0.21rem;
+        height: 0.21rem;
+    }
+    .wangjipass{
+        height: auto;
+        font-size: 0.24rem;
+        line-height: 0.24rem;
+    }
+    .lijilogin,.zhuce{
+        width: 1.8rem;
+        height: 0.52rem;
+        font-size: 0.3rem;
+        line-height: 0.52rem;
+        border-radius: 0.3rem;
+        margin: 0 0.11rem;
+    }
+    .loginfangshi{
+        width: 3rem;
+        height: 0.6rem;
+        display: flex;
+    }
+    .weixins{
+        width: 33.3%;
+    }
+    .weixin{
+        width: 0.6rem;
+        height: 100%;
+        font-size: 0.6rem;
+        margin: 0;
+    }
+    .gongneng{
+        height: 0.24rem;
+    }
+    .anniu{
+        height: 0.54rem;
+    }
+    .yonghu,.password{
+        font-size: 0.26rem;
+    }
+    .yonghu span,.password span{
+        font-size: 0.26rem;
+    }
+    .denglu{
+        font-size: 0.3rem;
+        right: 1.2rem;
+    }
+    .a{
+        width: 4.1rem;
+    }
+    .username{
+        margin-top: 0.2rem;
+    }
+    .wzm_zhezhao{
+        background: #fff;
+    }
+}
