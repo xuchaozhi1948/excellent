@@ -1,0 +1,22 @@
+*{
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		font-family: "微软雅黑" ,"宋体", sans-serif;
+		box-sizing: border-box;
+		-webkit-tap-highlight-color:transparent;
+}
+a{
+	    background-color: transparent;
+		text-decoration: none;
+		-webkit-tap-highlight-color: transparent;
+		transition: all 0.3s ease-out;
+		color: #e4c17e;
+}
+
+body{
+		background: #f5f5f5;
+}
+
+
+a:hover{    -webkit-tap-highlight-color: transparent;}
