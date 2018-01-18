@@ -1,6 +1,5 @@
 <?php
 
-
 class router
 {
     private $m;   //模块
