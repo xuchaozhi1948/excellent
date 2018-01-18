@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>诚聘</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="css_xcz/base_xcz.css">
+    <link rel="stylesheet" href="css_xcz/chengpingxq.css">
+    <link rel="stylesheet" href="font/iconfont.css">
+    <script src="js_xcz/jquery-3.2.1.js"></script>
+</head>
+<body>
+<!--焦点图-->
+<div class="xcz_focus">
+    <h1>安逸 の 午后</h1>
+    <h2>WHY IS IT THAT I DON'T KNOW</h2>
+    <h2>THAT THIS RESTAERANT'S BREAD AND CAKES ARE SO CHEAP AND</h2>
+    <p>山/有/木/兮/木/有/枝</p>
+</div>
+<!--内容框架-->
+<div class="xcz_content">
+    <div class="xcz_content-box">
+        <div class="xcz_content-top">
+            <i class="iconfont icon-choiceO" style="font-size: 16px;line-height: 55px"></i>诚聘
+        </div>
+        <div class="xcz_cp-cont">
+            <div class="xcz_cp-login">
+                <div class="xcz_cp-login2">
+                    <i class="iconfont icon-wutouxiang"></i><b>12345678900</b><i id="xcz_sj" class="iconfont icon-icon_arrow_right"></i>
+                </div>
+                <div class="xcz_cp-dl"><a href="">退出当前登录</a></div>
+            </div>
+            <div class="xcz_cp-title">
+                <img src="img/veronesse_001.png" alt="">
+                <h5>一路相伴，共创辉煌</h5>
+                <p>GO HAND CREATE BRILLIANCE</p>
+            </div>
+            <div class="xcz_cp-box">
+                <form id="xcz_bd">
+                    <div class="xcz_group">
+                        <label for="xcz_name">姓名：</label>
+                        <input type="name" class="xcz_control" id="xcz_name" placeholder="请输入您的姓名">
+                         <!--<b class="xcz_block">* Example block-level help text here.</b>-->
+                    </div>
+                    <div class="xcz_group">
+                        <label for="xcz_phone">手机：</label>
+                        <input type="phone" class="xcz_control" id="xcz_phone" placeholder="请输入您的手机">
+                         <!--<b class="xcz_block">* Example block-level help text here.</b>-->
+                    </div>
+                    <div class="xcz_group">
+                        <label for="xcz_email">邮箱：</label>
+                        <input type="email" class="xcz_control" id="xcz_email" placeholder="请输入您的邮箱">
+                         <!--<b class="xcz_block">* Example block-level help text here.</b>-->
+                    </div>
+                    <div class="xcz_group">
+                        <label for="xcz_email">职位：</label>
+                        <select class="xcz_control xcz_conts">
+                            <option selected>请选择应聘职位</option>
+                            <option>助理西点师</option>
+                            <option>营养顾问</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                    </div>
+                    <div class="xcz_group">
+                        <label class="xcz_sss">工作经历：</label>
+                        <textarea class="xcz_wby" rows="3" placeholder="不超过400字"></textarea>
+                    </div>
+                    <div class="xcz_group">
+                        <label class="xcz_sss">获得荣誉：</label>
+                        <textarea class="xcz_wby xcz_gro" rows="3"></textarea>
+                    </div>
+                </form>
+            </div>
+            <div class="xcz_cp-jrwm">提交</div>
+        </div>
+    </div>
+</div>
+<script>
+    $("#xcz_sj").click(function(){
+        $(".xcz_cp-dl").slideToggle(300);
+    });
+</script>
+</body>
+</html>

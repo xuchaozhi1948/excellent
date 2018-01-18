@@ -1,0 +1,1921 @@
+/* 大于1024 */
+@media screen and (min-width: 1024px){
+    .xcz_focus{
+        width: 100%;
+        height: 410px;
+        background: url("../img/banner_02.png")no-repeat;
+        position: relative;
+    }
+    .xcz_focus h1{
+        color: #fff;
+        font-size: 36px;
+        text-align: center;
+        padding-top: 155px;
+        font-weight: normal;
+    }
+    .xcz_focus h2{
+        color: #fff;
+        font-size: 12px;
+        line-height: 18px;
+        text-align: center;
+        font-weight: normal;
+    }
+    .xcz_focus p{
+        width: 178px;
+        height: 15px;
+        background: #E5BC6F;
+        color: #fff;
+        font-size: 14px;
+        line-height: 15px;
+        margin: 0 auto;
+        text-align: center;
+        font-weight: normal;
+        margin-top: 5px;
+
+    }
+    .xcz_content{
+        width: 1200px;
+        height: auto;
+        background: #ffffff;
+        background-image: url("../img/yuandian_.png");
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 337px;
+        left: calc(50% - 600px);
+        box-shadow: 0 5px 50px rgba(0,0,0,0.1);
+    }
+    .xcz_content-box{
+        width: 1000px;
+        height: auto;
+        border-bottom: 1px solid #CECECE;
+        margin: 0 auto;
+    }
+    .xcz_content-top{
+        width: 1000px;
+        height: 55px;
+        border-bottom: 1px solid #CECECE;
+        margin: 18px auto 0;
+        line-height: 55px;
+        color:#E5BC6F;
+        font-family: "宋体";
+    }
+    .xcz_content-top b{
+        margin-left: -4px;
+    }
+    .xcz_content-top i{
+        margin:0 5px;
+    }
+    .xcz_cont1{
+        width: 165px;
+        height: 99px;
+        background: url("../img/title_111.png");
+        margin: 60px auto 50px;
+    }
+    .xcz_cont1 p{
+        color: #E5BC6F;
+        font-size: 20px;
+        text-align: center;
+        padding-top: 18%;
+     }
+    .xcz_cont1 h5{
+        font-weight: bold;
+        color: #E5BC6F;
+        font-size: 14px;
+        text-align: center;
+        line-height: 24px;
+    }
+    .xcz_cont1 h5 span{
+        font-weight: normal;
+        font-size: 14px;
+        color: #E5BB6C;
+
+
+    }
+    .xcz_cont1-box{
+        display: flex;
+        justify-content: space-between;
+    }
+    .xcz_cont1-wz{
+        width: 370px;
+        height: 170px;
+    }
+    .xcz_cont1-wz h1{
+        font-size: 62px;
+        color: #efefef;
+        line-height: 62px;
+        font-family: "San Francisco Display";
+    }
+    .xcz_cont1-wz h2{
+        margin-top: -22px;
+        font-size: 30px;
+        font-weight:lighter;
+        font-family: "San Francisco Display";
+        color: #989898;
+        line-height: 30px;
+    }
+    .xcz_cont1-wz p{
+        font-size: 24px;
+        color: #4c4c4c;
+        margin-top: 28px;
+    }
+    .xcz_cont1-wz h3{
+        font-size: 24px;
+        color: #111111  ;
+        line-height: 30px;
+        font-weight:lighter;
+        margin-top: 5px;
+        font-family: "San Francisco Display";
+    }
+    .xcz_cont1-tp{
+        width: 460px;
+        height: 255px;
+        margin-right: -100px;
+    }
+    .xcz_cont2-tu{
+        width: 1000px;
+        height: 666px;
+        margin:0 auto;
+        position: relative;
+    }
+    .xcz_cont2-tu img{
+        width: 100%;
+    }
+    .xcz_cont2-tiao{
+        width: 455px;
+        height: 53px;
+        background: url("../img/pic_13.png")no-repeat;
+        position: absolute;
+        bottom: 66px;
+        left: -32px;
+        color: #dcdcdc;
+        font-size: 12px;
+        line-height: 53px;
+        padding-left: 65px;
+
+    }
+    .xcz_cont2-tiao b{
+        color: #fff;
+
+    }
+    .xcz_cont2-wzbt2{
+        display: none;
+    }
+    .xcz_cont2-wzbt{
+        width: 1000px;
+        height: 22px;
+        margin-top: 66px;
+        font-size: 18px;
+        line-height: 22px;
+        font-weight: 500;
+        color: #000;
+    }
+    .xcz_cont2-wzbt span{
+        margin-left: 50px;
+        font-size: 14px;
+        color: #ddd;
+        vertical-align:baseline;
+        font-weight: normal;
+    }
+    .xcz_cont2-wznr{
+        width: 1000px;
+        line-height: 24px;
+        margin-top: 18px;
+        margin-bottom: 60px;
+        color: #bfbfbf;
+        text-align:justify;
+
+    }
+    .xcz_cont3-box{
+        display: flex;
+        justify-content: space-between;
+    }
+    .xcz_cont3-tu{
+        width: 432px;
+        height: 646px;
+        margin-bottom: 67px;
+    }
+    .xcz_cont3-wz{
+        width: 500px;
+        height: 646px;
+        /*background: #a82400;*/
+        overflow: hidden;
+    }
+    .xcz_cont3-wz div{
+        width: 318px;
+        height: 89px;
+        float: right;
+        margin-top: 73px;
+        margin-right: -30px;
+        background: url("../img/pic_14.png")no-repeat;
+    }
+    .xcz_cont3-wz h1{
+        float: right;
+        font-size: 120px;
+        color: #efefef;
+        line-height: 120px;
+        margin-top: -140px;
+        font-family: "San Francisco Display";
+    }
+    .xcz_cont3-wz h2{
+        float: right;
+        font-size: 28px;
+        color: #333;
+        line-height: 28px;
+        margin-top: -70px;
+        font-weight: normal;
+        font-family: "San Francisco Display";
+    }
+    .xcz_cont3-wz h3{
+        float: right;
+        font-size: 30px;
+        color: #333;
+        line-height: 30px;
+        margin-top: -45px;
+        font-weight: normal;
+        font-family: "San Francisco Display";
+    }
+    .xcz_cont3-wz h5{
+        display: none;
+    }
+    .xcz_cont3-wz2{
+        display: none;
+    }
+    .xcz_cont3-wz h4{
+        width: 100%;
+        height: 22px;
+        margin-top: 66px;
+        font-size: 18px;
+        line-height: 22px;
+        font-weight: 500;
+        color: #000;
+        margin-top: 290px;
+    }
+    .xcz_cont3-wz h4 span{
+        line-height: 32px;
+        font-size: 14px;
+        color: #ddd;
+        vertical-align:baseline;
+        font-weight: normal;
+    }
+    .xcz_cont3-wz p{
+        width: 100%;
+        margin-top: 65px;
+        line-height: 24px;
+        margin-bottom: 20px;
+        color: #bbb;
+        text-align:justify;
+    }
+    .xcz_cont3-wz b{
+        width: 100%;
+        line-height: 12px;
+        color: #bfbfbf;
+        font-weight: normal;
+        font-size: 12px;
+        text-align:justify;
+        font-family: "San Francisco Display";
+
+    }
+    .xcz_cont4-box{
+        display: flex;
+        justify-content: space-between;
+    }
+    .xcz_cont4-tu2{
+        display: none;
+    }
+    .xcz_cont4-tu{
+        width: 678px;
+        height: 372px;
+        margin-bottom: 36px;
+        overflow: hidden;
+        position: relative;
+    }
+    .xcz_cont4-bf{
+        width: 88px;
+        height: 88px;
+        border-radius: 50%;
+        /*background: #FFC559;*/
+        position: absolute;
+        top:0;
+        bottom:0;
+        left:0;
+        right:0;
+        margin: auto;
+    }
+    .xcz_cont4-tu img{
+        margin-left: -112px;
+        margin-top: -5px;
+    }
+    .xcz_cont4-wz{
+        width: 263px;
+        height: 290px;
+        margin-top: 70px;
+    }
+    .xcz_cont4-wz h1{
+        font-size: 36px;
+        font-weight: normal;
+    }
+    .xcz_cont4-wz h2{
+        font-size: 22px;
+        color: #dddddd;
+        font-weight: normal;
+        margin-top: 40px;
+        font-family: "San Francisco Display";
+    }
+    .xcz_cont4-wz h3{
+        font-size: 12px;
+        color: #666666;
+        line-height: 22px;
+        font-weight: normal;
+    }
+    .xcz_cont4-wz p{
+        margin-top: 30px;
+        font-size: 12px;
+        color: #999;
+        line-height: 22px;
+        font-weight: normal;
+        text-align:justify;
+    }
+    .xcz_content-down{
+        width: 240px;
+        height: 32px;
+        float: right;
+    }
+    .xcz_content-fx{
+        line-height: 32px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .xcz_content-fx a{
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+    }
+    .xcz_content-fy1{
+        display: none;
+    }
+    .xcz_content-fy{
+        width: 800px;
+        height: 22px;
+        margin: 77px auto 35px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .xcz_content-fy li{
+        width: 20px;
+        height: 20px;
+        border: 1px solid #E5BB6C;
+        border-radius: 50%;
+        color: #333;
+        text-align: center;
+        line-height: 20px;
+        font-size: 12px;
+    }
+    .xcz_content-fy li:hover{
+        background: #E5BB6C;
+    }
+    .xcz_content-fy span{
+        color: #333;
+    }
+    #xcz_pre{
+        width:50px;
+        border-radius: 20px;
+        font-weight: bold;
+    }
+    #xcz_next{
+        width:50px;
+        border-radius: 20px;
+        font-weight: bold;
+    }
+    #xcz_go{
+        width:50px;
+        height: 20px;
+        border: 1px solid #E5BB6C;
+        border-radius: 20px;
+        font-weight: bold;
+        text-align: center;
+        line-height: 20px;
+        font-size: 12px;
+        color: #333;
+        outline:none;
+        background: #fff;
+    }
+    #xcz_go:hover{
+        background: #E5BB6C;
+    }
+    #xcz_tz{
+        width: 120px;
+        border-radius: 0;
+        border: 0;
+        font-size: 12px;
+        line-height: 22px;
+        background: #fff;
+    }
+    #xcz_tz input{
+        width: 25px;
+        height: 22px;
+        outline:none;
+        padding-left:8px;
+        margin: 0 5px;
+        background: #E5BB6C;
+        border-radius: 20px;
+        color: #fff;
+        border: 0;
+    }
+    .xcz_active{
+        background: #E5BB6C;
+        color: #fff;
+    }
+    .xcz_comment{
+        width: 1000px;
+        height: auto;
+        margin: 0 auto;
+    }
+    .xcz_comm-bt{
+        width: 165px;
+        height: 45px;
+        margin-top: 40px;
+    }
+    .xcz_comm-bt h1{
+        font-size: 22px;
+        line-height: 26px;
+        font-weight: normal;
+        color: #333;
+    }
+    .xcz_comm-bt p{
+        font-size: 15px;
+        line-height: 22px;
+        font-weight: normal;
+        color: #999;
+    }
+    .xcz_comm-pl{
+        width: 100%;
+        height: 270px;
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid #CECECE;
+    }
+    .xcz_comm-tx{
+        width: 150px;
+        height: 150px;
+        border: 2px solid #E5BB6C;
+        border-radius: 50%;
+        margin: 64px 0 0 3px;
+        overflow: hidden;
+    }
+    .xcz_comm-nr{
+        width: 800px;
+        height: 160px;
+        margin-top: 64px;
+    }
+    .xcz_comm-nr h3{
+        display: flex;
+        justify-content: space-between;
+        font-size: 20px;
+        line-height: 30px;
+        color: #333;
+    }
+    .xcz_comm-nr h3 span{
+        font-weight: normal;
+        font-size: 12px;
+        color: #aaaaaa;
+
+    }
+    .xcz_comm-nr p{
+        width: 100%;
+        height: 80px;
+        font-size: 14px;
+        color: #888;
+        line-height: 24px;
+        margin-top: 18px;
+        text-align:justify;
+        overflow: hidden;
+    }
+    .xcz_comm-yddz{
+        width: 200px;
+        height: 15px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .xcz_comm-yddz span{
+        font-size: 12px;
+        color: #aaa;
+
+    }
+    .xcz_mess{
+        width: 1000px;
+        height: auto;
+        margin: 0 auto;
+    }
+    .xcz_mess-bt{
+        width: 165px;
+        height: 45px;
+        margin: 125px 0 53px 0;
+    }
+    .xcz_mess-bt h1{
+        font-size: 22px;
+        line-height: 26px;
+        font-weight: normal;
+        color: #333;
+    }
+    .xcz_mess-bt p{
+        font-size: 15px;
+        line-height: 22px;
+        color: #999;
+        font-weight: normal;
+    }
+    .xcz_mess-bd{
+        width: 100%;
+        height: 500px;
+        margin-bottom: 150px;
+        position: relative;
+        background: -webkit-linear-gradient(#FFEEEC, #FFFBF5); /* Safari 5.1 - 6.0 */
+        background: -o-linear-gradient(#FFEEEC, #FFFBF5); /* Opera 11.1 - 12.0 */
+        background: -moz-linear-gradient(#FFEEEC, #FFFBF5); /* Firefox 3.6 - 15 */
+        background: linear-gradient(#FFEEEC, #FFFBF5); /* 标准的语法 */
+    }
+    .xcz_mess-zz{
+        width: 1100px;
+        height: 90px;
+        background: rgba(0,0,0,0.5);
+        position: absolute;
+        top: 0;
+        left: -50px;
+        background: -webkit-linear-gradient(#f1f1f1, rgba(255,255,255,0)); /* Safari 5.1 - 6.0 */
+        background: -o-linear-gradient(#f1f1f1, rgba(255,255,255,0)); /* Opera 11.1 - 12.0 */
+        background: -moz-linear-gradient(#f1f1f1, rgba(255,255,255,0)); /* Firefox 3.6 - 15 */
+        background: linear-gradient(#f1f1f1, rgba(255,255,255,0)); /* 标准的语法 */
+    }
+    .xcz-mianbao{
+        width: 415px;
+        height: 300px;
+        background: url("../img/drawing_15.png")no-repeat;
+        background-size:415px 265px;
+        position: absolute;
+        bottom: -70px;
+        left: -150px;
+    }
+    #xcz_input{
+        width: 800px;
+        height: 52px;
+        padding: 75px 100px 0;
+        display: flex;
+        justify-content: space-between;
+
+    }
+    #xcz_name{
+        width:350px;
+        height: 52px;
+        outline:none;
+        padding-left: 30px;
+        font-size: 16px;
+        border: 1px solid #ddd;
+    }
+    #xcz_email{
+        width:350px;
+        height: 52px;
+        outline:none;
+        padding-left: 30px;
+        font-size: 16px;
+        border: 1px solid #ddd;
+
+    }
+    #xcz_wbyly{
+        width: 770px;
+        height: 280px;
+        margin: 43px 100px;
+        resize:none;
+        outline:none;
+        padding-left: 30px;
+        font-size:12pt;
+        line-height: 30px;
+        font-family: "微软雅黑","San Francisco Display";
+        border: 1px solid #ddd;
+    }
+    #xcz_but{
+        width: 90px;
+        height: 40px;
+        border-radius: 20px;
+        background: #FFEDD9;
+        position: absolute;
+        bottom: 70px;
+        right: 150px;
+        border: 0;
+        font-size: 16px;
+        font-weight: bold;
+        color: #fff;
+        font-family: "San Francisco Display";
+        outline:none;
+
+    }
+
+}
+/* 小于1024 */
+@media screen and (max-width: 1024px) {
+    .xcz_focus{
+        width: 100%;
+        height: 268px;
+        background: url("../img/banner_02.png")no-repeat;
+        position: relative;
+    }
+    .xcz_focus h1{
+        color: #fff;
+        font-size: 36px;
+        text-align: center;
+        padding-top: 53px;
+        font-weight: normal;
+    }
+    .xcz_focus h2{
+        color: #fff;
+        font-size: 14px;
+        line-height: 18px;
+        text-align: center;
+        font-weight: normal;
+    }
+    .xcz_focus p{
+        width: 178px;
+        height: 18px;
+        background: #E5BC6F;
+        color: #fff;
+        font-size: 16px;
+        line-height: 15px;
+        margin: 5px auto;
+        text-align: center;
+        font-weight: normal;
+    }
+    .xcz_content{
+        width: calc(100% - 50px);
+        height: auto;
+        background: #ffffff;
+        background-image: url("../img/yuandian_.png");
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 268px;
+        left: 0;
+        box-shadow: 0 5px 50px rgba(0,0,0,0.1);
+        padding: 0 25px;
+    }
+    .xcz_content-box{
+        width: 100%;
+        height: auto;
+        border-bottom: 1px solid #CECECE;
+        margin: 0 auto;
+    }
+    .xcz_content-top{
+        width: 100%;
+        height: 55px;
+        border-bottom: 0px solid #CECECE;
+        margin: 18px auto 0;
+        line-height: 55px;
+        color:#E5BC6F;
+        font-family: "宋体";
+    }
+    .xcz_content-top b{
+        margin-left: -4px;
+    }
+    .xcz_content-top i{
+        margin:0 5px;
+    }
+    .xcz_cont1{
+        width: 165px;
+        height: 99px;
+        background: url("../img/title_111.png");
+        margin: 60px auto 50px;
+    }
+    .xcz_cont1 p{
+        color: #E5BC6F;
+        font-size: 20px;
+        text-align: center;
+        padding-top: 18%;
+    }
+    .xcz_cont1 h5{
+        font-weight: bold;
+        color: #E5BC6F;
+        font-size: 16px;
+        text-align: center;
+        line-height: 24px;
+    }
+    .xcz_cont1 h5 span{
+        font-weight: normal;
+        font-size: 14px;
+        color: #E5BB6C;
+    }
+    .xcz_cont1-box{
+        display: flex;
+        justify-content: space-between;
+    }
+    .xcz_cont1-tp{
+        width: 322px;
+        height: auto;
+        margin-right: -10px;
+    }
+    .xcz_cont1-tp img{
+        /*display: block;*/
+        width: 100%;
+        margin: 40% 0 0 -25%;
+
+    }
+    .xcz_cont1-wz{
+        width: 311px;
+        height: 170px;
+    }
+    .xcz_cont1-wz h1{
+        font-size: 52px;
+        color: #efefef;
+        line-height: 62px;
+        font-family: "San Francisco Display";
+    }
+    .xcz_cont1-wz h2{
+        margin-top: -22px;
+        font-size: 26px;
+        font-weight:lighter;
+        font-family: "San Francisco Display";
+        color: #989898;
+        line-height: 30px;
+    }
+    .xcz_cont1-wz p{
+        font-size: 24px;
+        color: #4c4c4c;
+        margin: 10px 0;
+    }
+    .xcz_cont1-wz h3{
+        font-size: 20px;
+        color: #111111  ;
+        line-height: 30px;
+        font-weight:lighter;
+        margin-top: 5px;
+        font-family: "San Francisco Display";
+    }
+
+
+    .xcz_cont2-tu{
+        width: 100%;
+        height: auto;
+        margin:0 auto;
+        position: relative;
+        overflow: hidden;
+    }
+    .xcz_cont2-tu img{
+        width: 100%;
+    }
+    .xcz_cont2-tiao{
+        width: 455px;
+        height: 53px;
+        background: url("../img/pic_13.png")no-repeat;
+        position: absolute;
+        top: 65%;
+        left: 0;
+        color: #dcdcdc;
+        font-size: 16px;
+        line-height: 53px;
+        padding-left: 0px;
+    }
+    .xcz_cont2-tiao b{
+        color: #fff;
+    }
+    .xcz_cont2-wzbt{
+        display: none;
+    }
+    .xcz_cont2-wzbt2{
+        display: block;
+        width: 100%;
+        height: 22px;
+        margin-top: 30px;
+        font-size: 30px;
+        line-height: 36px;
+        font-weight: 500;
+        color: #000;
+        white-space: pre-wrap;
+    }
+    .xcz_cont2-wzbt2 span{
+        margin-left: 35px;
+        font-size: 14px;
+        line-height: 14px;
+        color: #ddd;
+        vertical-align:baseline;
+        font-weight: normal;
+        white-space: pre-wrap;
+    }
+    .xcz_cont2-wznr{
+        width: 100%;
+        line-height: 24px;
+        margin-top: 100px;
+        margin-bottom: 60px;
+        color: #bfbfbf;
+        text-align:justify;
+
+    }
+    .xcz_cont3-box{
+        display: flex;
+        justify-content: space-between;
+    }
+    .xcz_cont3-tu{
+        width: 50%;
+        height: auto;
+        margin-bottom: 37px;
+    }
+    .xcz_cont3-tu img{
+        width: 100%;
+    }
+    .xcz_cont3-wz{
+        width:50%;
+        height: auto;
+        overflow: hidden;
+    }
+    .xcz_cont3-wz div{
+        width: 270px;
+        height: 88px;
+        float: right;
+        margin-top: 25%;
+        margin-right: -30px;
+        background: url("../img/pic_14.png")no-repeat;
+    }
+    .xcz_cont3-wz h1{
+        float: right;
+        font-size: 100px;
+        color: #efefef;
+        line-height: 120px;
+        margin-top: -140px;
+        font-family: "San Francisco Display";
+    }
+    .xcz_cont3-wz h2{
+        float: right;
+        font-size: 24px;
+        color: #333;
+        line-height: 28px;
+        margin-top: -70px;
+        font-weight: normal;
+        font-family: "San Francisco Display";
+    }
+    .xcz_cont3-wz h3{
+        float: right;
+        font-size: 26px;
+        color: #333;
+        line-height: 30px;
+        margin-top: -45px;
+        font-weight: normal;
+        font-family: "San Francisco Display";
+    }
+    .xcz_cont3-wz h4{
+        display: none;
+    }
+    .xcz_cont3-wz h5{
+        display: block;
+        text-align:right;
+        width: 100%;
+        height: 22px;
+        font-size: 30px;
+        line-height: 36px;
+        font-weight: 500;
+        color: #000;
+        margin-top: 85%;
+    }
+    .xcz_cont3-wz h5 span{
+        line-height: 32px;
+        font-size: 16px;
+        color: #ddd;
+        vertical-align:baseline;
+        font-weight: normal;
+    }
+    .xcz_cont3-wz p{
+        display: none;
+    }
+    .xcz_cont3-wz b{
+        display: none;
+    }
+    .xcz_cont3-wz2{
+        display: block;
+        width:100%;
+        height: auto;
+        overflow: hidden;
+        position: relative;
+        right: 0;
+        z-index: 99;
+        margin-bottom: 37px;
+
+    }
+    .xcz_cont3-wz2 p{
+        width: 100%;
+        /*margin-top: 65px;*/
+        line-height: 24px;
+        margin-bottom: 20px;
+        color: #bbb;
+        text-align:justify;
+    }
+    .xcz_cont3-wz2 b{
+        width: 100%;
+        line-height: 12px;
+        color: #bfbfbf;
+        font-weight: normal;
+        font-size: 12px;
+        text-align:justify;
+        font-family: "San Francisco Display";
+
+    }
+    .xcz_cont4-box{
+        display: flex;
+        flex-direction:column;
+        /*justify-content: space-between;*/
+    }
+    .xcz_cont4-tu2{
+        display: block;
+        width: 100%;
+        height: auto;
+        margin-bottom: 36px;
+        overflow: hidden;
+        position: relative;
+    }
+    .xcz_cont4-tu{
+        display: none;
+    }
+    .xcz_cont4-bf{
+        display: none;
+    }
+    .xcz_cont4-bf2{
+        width: 88px;
+        height: 88px;
+        border-radius: 50%;
+        /*background: #FFC559;*/
+        position: absolute;
+        top:0;
+        bottom:0;
+        left:0;
+        right:0;
+        margin: auto;
+    }
+    .xcz_cont4-tu2 img{
+        width: 200%;
+        margin-left: -224px;
+        margin-top: -5px;
+    }
+    .xcz_cont4-wz{
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+    .xcz_cont4-wz h1{
+        font-size: 36px;
+        font-weight: normal;
+    }
+    .xcz_cont4-wz h2{
+        font-size: 22px;
+        color: #dddddd;
+        font-weight: normal;
+        margin-top: 30px;
+        font-family: "San Francisco Display";
+    }
+    .xcz_cont4-wz h3{
+        font-size: 12px;
+        color: #666666;
+        line-height: 22px;
+        font-weight: normal;
+    }
+    .xcz_cont4-wz p{
+        margin: 30px 0 60px;
+        font-size: 12px;
+        color: #999;
+        line-height: 14px;
+        font-weight: normal;
+        text-align:justify;
+    }
+    .xcz_content-down{
+        width: 240px;
+        height: 32px;
+        float: right;
+    }
+    .xcz_content-fx{
+        line-height: 32px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .xcz_content-fx a{
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+    }
+    .xcz_content-fy{
+        display: none;
+    }
+    .xcz_content-fy1{
+        width: 80%;
+        height: 22px;
+        margin: 77px auto 35px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .xcz_content-fy1 li{
+        width: 20px;
+        height: 20px;
+        border: 1px solid #E5BB6C;
+        border-radius: 50%;
+        color: #333;
+        text-align: center;
+        line-height: 20px;
+        font-size: 12px;
+    }
+    .xcz_content-fy1 span{
+        color: #333;
+    }
+    #xcz_pre{
+        width:50px;
+        border-radius: 20px;
+        font-weight: bold;
+    }
+    #xcz_next{
+        width:50px;
+        border-radius: 20px;
+        font-weight: bold;
+    }
+    #xcz_pre1{
+        padding-right: 5px;
+        border-radius: 20px;
+        font-weight: bold;
+        color: #E5BB6C;
+    }
+    #xcz_next1{
+        padding-left: 5px;
+        border-radius: 20px;
+        font-weight: bold;
+        color: #E5BB6C;
+    }
+    #xcz_go{
+        width:50px;
+        height: 20px;
+        border: 1px solid #E5BB6C;
+        border-radius: 20px;
+        font-weight: bold;
+        text-align: center;
+        line-height: 20px;
+        font-size: 12px;
+        color: #333;
+        outline:none;
+        background: #fff;
+
+    }
+    #xcz_tz{
+        width: 120px;
+        border-radius: 0;
+        border: 0;
+        font-size: 12px;
+        line-height: 22px;
+    }
+    #xcz_tz input{
+        width: 25px;
+        height: 22px;
+        outline:none;
+        padding-left:8px;
+        margin: 0 5px;
+        background: #E5BB6C;
+        border-radius: 20px;
+        color: #fff;
+        border: 0;
+    }
+    .xcz_active{
+        background: #E5BB6C;
+        color: #fff;
+    }
+    .xcz_comment{
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+    .xcz_comm-bt{
+        width: 165px;
+        height: 45px;
+        margin-top: 40px;
+    }
+    .xcz_comm-bt h1{
+        font-size: 22px;
+        line-height: 26px;
+        font-weight: normal;
+        color: #333;
+    }
+    .xcz_comm-bt p{
+        font-size: 15px;
+        line-height: 22px;
+        font-weight: normal;
+        color: #999;
+    }
+    .xcz_comm-pl{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid #CECECE;
+    }
+    .xcz_comm-tx{
+        width: 71px;
+        height: 71px;
+        border: 2px solid #E5BB6C;
+        border-radius: 50%;
+        margin: 34px 0 0 3px;
+        overflow: hidden;
+    }
+    .xcz_comm-tx img{
+        width: 100%;
+    }
+    .xcz_comm-nr{
+        width: 80%;
+        height: auto;
+        margin-top: 34px;
+    }
+    .xcz_comm-nr h3{
+        display: flex;
+        justify-content: space-between;
+        font-size: 20px;
+        line-height: 30px;
+        color: #333;
+    }
+    .xcz_comm-nr h3 span{
+        font-weight: normal;
+        font-size: 12px;
+        color: #aaaaaa;
+
+    }
+    .xcz_comm-nr p{
+        width: 100%;
+        height: auto;
+        font-size: 14px;
+        color: #888;
+        line-height: 24px;
+        margin: 18px 0;
+        text-align:justify;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3;
+    }
+    .xcz_comm-yddz{
+        width: 200px;
+        height: 15px;
+        display: flex;
+        margin-bottom: 20px;
+        justify-content: space-between;
+    }
+    .xcz_comm-yddz span{
+        font-size: 12px;
+        color: #aaa;
+
+    }
+    .xcz_mess{
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+    .xcz_mess-bt{
+        width: 165px;
+        height: 45px;
+        margin: 125px 0 53px 0;
+    }
+    .xcz_mess-bt h1{
+        font-size: 22px;
+        line-height: 26px;
+        font-weight: normal;
+        color: #333;
+    }
+    .xcz_mess-bt p{
+        font-size: 15px;
+        line-height: 22px;
+        color: #999;
+        font-weight: normal;
+    }
+    .xcz_mess-bd{
+        width: 100%;
+        height: 500px;
+        margin-bottom: 150px;
+        position: relative;
+        background: -webkit-linear-gradient(#FFEEEC, #FFFBF5); /* Safari 5.1 - 6.0 */
+        background: -o-linear-gradient(#FFEEEC, #FFFBF5); /* Opera 11.1 - 12.0 */
+        background: -moz-linear-gradient(#FFEEEC, #FFFBF5); /* Firefox 3.6 - 15 */
+        background: linear-gradient(#FFEEEC, #FFFBF5); /* 标准的语法 */
+    }
+    .xcz_mess-zz{
+        width: 100%;
+        height: 90px;
+        background: rgba(0,0,0,0.5);
+        position: absolute;
+        top: 0;
+        left:0;
+        background: -webkit-linear-gradient(#f1f1f1, rgba(255,255,255,0)); /* Safari 5.1 - 6.0 */
+        background: -o-linear-gradient(#f1f1f1, rgba(255,255,255,0)); /* Opera 11.1 - 12.0 */
+        background: -moz-linear-gradient(#f1f1f1, rgba(255,255,255,0)); /* Firefox 3.6 - 15 */
+        background: linear-gradient(#f1f1f1, rgba(255,255,255,0)); /* 标准的语法 */
+    }
+    .xcz-mianbao{
+        width: 40%;
+        height: 250px;
+        background: url("../img/drawing_15.png")no-repeat;
+        background-size:60%;
+        position: absolute;
+        bottom: -100px;
+        left: 0;
+    }
+
+    #xcz_input{
+        width: calc(81% - 6%);
+        height: auto;
+        padding: 75px 12% 0;
+        display: flex;
+        flex-direction:column;
+        /*justify-content: space-between;*/
+    }
+    #xcz_name{
+        width:calc(100% - 6%);
+        height: 52px;
+        outline:none;
+        padding-left: 30px;
+        font-size: 16px;
+        border: 1px solid #ddd;
+        margin-bottom: 20px;
+    }
+    #xcz_email{
+        width:calc(100% - 6%);
+        height: 52px;
+        outline:none;
+        padding-left: 30px;
+        font-size: 16px;
+        border: 1px solid #ddd;
+
+    }
+    #xcz_wbyly{
+        width: 70%;
+        height: 280px;
+        margin: 43px 12%;
+        resize:none;
+        outline:none;
+        padding-left: 30px;
+        font-size:12pt;
+        line-height: 30px;
+        font-family: "微软雅黑","San Francisco Display";
+        border: 1px solid #ddd;
+    }
+    #xcz_but{
+        width: 90px;
+        height: 40px;
+        border-radius: 20px;
+        background: #FFEDD9;
+        position: absolute;
+        bottom: 10px;
+        right: 100px;
+        border: 0;
+        font-size: 16px;
+        font-weight: bold;
+        color: #fff;
+        font-family: "San Francisco Display";
+        outline:none;
+    }
+}
+/* 小于768 */
+@media screen and (max-width: 768px){
+    .xcz_focus{
+        width: 100%;
+        height: 268px;
+        background: url("../img/banner_02.png")no-repeat;
+        position: relative;
+    }
+    .xcz_focus h1{
+        color: #fff;
+        font-size: 36px;
+        text-align: center;
+        padding-top: 53px;
+        font-weight: normal;
+    }
+    .xcz_focus h2{
+        color: #fff;
+        font-size: 14px;
+        line-height: 18px;
+        text-align: center;
+        font-weight: normal;
+    }
+    .xcz_focus p{
+        width: 178px;
+        height: 18px;
+        background: #E5BC6F;
+        color: #fff;
+        font-size: 16px;
+        line-height: 15px;
+        margin: 5px auto;
+        text-align: center;
+        font-weight: normal;
+    }
+    .xcz_content{
+        width: calc(100% - 50px);
+        height: auto;
+        background: #ffffff;
+        background-image: url("../img/yuandian_.png");
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 268px;
+        left: 0;
+        box-shadow: 0 5px 50px rgba(0,0,0,0.1);
+        padding: 0 25px;
+    }
+    .xcz_content-box{
+        width: 100%;
+        height: auto;
+        border-bottom: 1px solid #CECECE;
+        margin: 0 auto;
+    }
+    .xcz_content-top{
+        width: 100%;
+        height: 55px;
+        border-bottom: 0px solid #CECECE;
+        margin: 18px auto 0;
+        line-height: 55px;
+        color:#E5BC6F;
+        font-family: "宋体";
+    }
+    .xcz_content-top b{
+        margin-left: -4px;
+    }
+    .xcz_content-top i{
+        margin:0 5px;
+    }
+    .xcz_cont1{
+        width: 165px;
+        height: 99px;
+        background: url("../img/title_111.png");
+        margin: 60px auto 30px;
+    }
+    .xcz_cont1 p{
+        color: #E5BC6F;
+        font-size: 20px;
+        text-align: center;
+        padding-top: 18%;
+    }
+    .xcz_cont1 h5{
+        font-weight: bold;
+        color: #E5BC6F;
+        font-size: 16px;
+        text-align: center;
+        line-height: 24px;
+    }
+    .xcz_cont1 h5 span{
+        font-weight: normal;
+        font-size: 14px;
+        color: #E5BB6C;
+    }
+    .xcz_cont1-box{
+        display: flex;
+        justify-content: space-between;
+    }
+    .xcz_cont1-tp{
+        width: 322px;
+        height: auto;
+        margin-right: -20px;
+    }
+    .xcz_cont1-tp img{
+        /*display: block;*/
+        width: 100%;
+        margin: 170px 0 0 -25%;
+
+    }
+    .xcz_cont1-wz{
+        width: 311px;
+        height: 170px;
+    }
+    .xcz_cont1-wz h1{
+        font-size: 2.2rem;
+        color: #efefef;
+        line-height: 62px;
+        font-family: "San Francisco Display";
+    }
+    .xcz_cont1-wz h2{
+        margin-top: -22px;
+        font-size: 1.5rem;
+        font-weight:lighter;
+        font-family: "San Francisco Display";
+        color: #989898;
+        line-height: 30px;
+    }
+    .xcz_cont1-wz p{
+        font-size: 1.1rem;
+        color: #4c4c4c;
+        margin: 10px 0;
+    }
+    .xcz_cont1-wz h3{
+        font-size: 1rem;
+        color: #111111  ;
+        line-height: 30px;
+        font-weight:lighter;
+        margin-top: 5px;
+        font-family: "San Francisco Display";
+    }
+
+
+    .xcz_cont2-tu{
+        width: 100%;
+        height: auto;
+        margin:0 auto;
+        position: relative;
+        overflow: hidden;
+    }
+    .xcz_cont2-tu img{
+        width: 100%;
+    }
+    .xcz_cont2-tiao{
+        width: 455px;
+        height: 53px;
+        background: url("../img/pic_13.png")no-repeat;
+        position: absolute;
+        top: 65%;
+        left: 0;
+        color: #dcdcdc;
+        font-size: 16px;
+        line-height: 53px;
+        padding-left: 0px;
+    }
+    .xcz_cont2-tiao b{
+        color: #fff;
+    }
+    .xcz_cont2-wzbt{
+        display: none;
+    }
+    .xcz_cont2-wzbt2{
+        display: block;
+        width: 100%;
+        height: 22px;
+        margin-top: 30px;
+        font-size: 1.2rem;
+        line-height: 36px;
+        font-weight: 500;
+        color: #000;
+        white-space: pre-wrap;
+    }
+    .xcz_cont2-wzbt2 span{
+        margin-left: 35px;
+        font-size: 14px;
+        line-height: 14px;
+        color: #ddd;
+        vertical-align:baseline;
+        font-weight: normal;
+        white-space: pre-wrap;
+    }
+    .xcz_cont2-wznr{
+        width: 100%;
+        line-height: 24px;
+        margin-top: 100px;
+        margin-bottom: 60px;
+        color: #bfbfbf;
+        text-align:justify;
+
+    }
+    .xcz_cont3-box{
+        display: flex;
+        justify-content: space-between;
+    }
+    .xcz_cont3-tu{
+        width: 50%;
+        height: auto;
+        margin-bottom: 37px;
+    }
+    .xcz_cont3-tu img{
+        width: 100%;
+    }
+    .xcz_cont3-wz{
+        width:50%;
+        height: auto;
+        overflow: hidden;
+    }
+    .xcz_cont3-wz div{
+        width: 100%;
+        height: 88px;
+        float: right;
+        margin-top: 25%;
+        margin-right: -30px;
+        background: url("../img/pic_14.png")no-repeat;
+    }
+    .xcz_cont3-wz h1{
+        float: right;
+        font-size: 3rem;
+        color: #efefef;
+        line-height: 120px;
+        margin-top: -140px;
+        font-family: "San Francisco Display";
+    }
+    .xcz_cont3-wz h2{
+        float: right;
+        font-size: 1.2rem;
+        color: #333;
+        line-height: 28px;
+        margin-top: -70px;
+        font-weight: normal;
+        font-family: "San Francisco Display";
+    }
+    .xcz_cont3-wz h3{
+        float: right;
+        font-size: 1.2rem;
+        color: #333;
+        line-height: 30px;
+        margin-top: -45px;
+        font-weight: normal;
+        font-family: "San Francisco Display";
+    }
+    .xcz_cont3-wz h4{
+        display: none;
+    }
+    .xcz_cont3-wz h5{
+        display: block;
+        text-align:right;
+        width: 100%;
+        height: 22px;
+        font-size: 0.9rem;
+        line-height: 36px;
+        font-weight: 500;
+        color: #000;
+        margin-top: 85%;
+    }
+    .xcz_cont3-wz h5 span{
+        line-height: 32px;
+        font-size: 0.4rem;
+        color: #ddd;
+        vertical-align:baseline;
+        font-weight: normal;
+    }
+    .xcz_cont3-wz p{
+        display: none;
+    }
+    .xcz_cont3-wz b{
+        display: none;
+    }
+    .xcz_cont3-wz2{
+        display: block;
+        width:100%;
+        height: auto;
+        overflow: hidden;
+        position: relative;
+        right: 0;
+        z-index: 99;
+        margin-bottom: 37px;
+
+    }
+    .xcz_cont3-wz2 p{
+        width: 100%;
+        /*margin-top: 65px;*/
+        line-height: 24px;
+        margin-bottom: 20px;
+        color: #bbb;
+        text-align:justify;
+    }
+    .xcz_cont3-wz2 b{
+        width: 100%;
+        line-height: 12px;
+        color: #bfbfbf;
+        font-weight: normal;
+        font-size: 12px;
+        text-align:justify;
+        font-family: "San Francisco Display";
+
+    }
+    .xcz_cont4-box{
+        display: flex;
+        flex-direction:column;
+        /*justify-content: space-between;*/
+    }
+    .xcz_cont4-tu2{
+        display: block;
+        width: 100%;
+        height: auto;
+        margin-bottom: 36px;
+        overflow: hidden;
+        position: relative;
+    }
+    .xcz_cont4-tu{
+        display: none;
+    }
+    .xcz_cont4-bf{
+        display: none;
+    }
+    .xcz_cont4-bf2{
+        width: 88px;
+        height: 88px;
+        border-radius: 50%;
+        /*background: #FFC559;*/
+        position: absolute;
+        top:0;
+        bottom:0;
+        left:0;
+        right:0;
+        margin: auto;
+    }
+    .xcz_cont4-tu2 img{
+        width: 200%;
+        margin-left: -224px;
+        margin-top: -5px;
+    }
+    .xcz_cont4-wz{
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+    .xcz_cont4-wz h1{
+        font-size: 1.5rem;
+        font-weight: normal;
+    }
+    .xcz_cont4-wz h2{
+        font-size: 22px;
+        color: #dddddd;
+        font-weight: normal;
+        margin-top: 30px;
+        font-family: "San Francisco Display";
+    }
+    .xcz_cont4-wz h3{
+        font-size: 12px;
+        color: #666666;
+        line-height: 22px;
+        font-weight: normal;
+    }
+    .xcz_cont4-wz p{
+        margin: 30px 0 40px;
+        font-size: 16px;
+        color: #999;
+        line-height: 20px;
+        font-weight: normal;
+        text-align:justify;
+    }
+    .xcz_content-down{
+        width: 240px;
+        height: 32px;
+        float: right;
+    }
+    .xcz_content-fx{
+        line-height: 32px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .xcz_content-fx a{
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+    }
+    .xcz_content-fy{
+        display: none;
+    }
+    .xcz_content-fy1{
+        width: 80%;
+        height: 22px;
+        margin: 77px auto 35px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .xcz_content-fy1 li{
+        width: 20px;
+        height: 20px;
+        border: 1px solid #E5BB6C;
+        border-radius: 50%;
+        color: #333;
+        text-align: center;
+        line-height: 20px;
+        font-size: 12px;
+    }
+    .xcz_content-fy1 span{
+        color: #333;
+    }
+    #xcz_pre{
+        width:50px;
+        border-radius: 20px;
+        font-weight: bold;
+    }
+    #xcz_next{
+        width:50px;
+        border-radius: 20px;
+        font-weight: bold;
+    }
+    #xcz_pre1{
+        padding-right: 5px;
+        border-radius: 20px;
+        font-weight: bold;
+        color: #E5BB6C;
+    }
+    #xcz_next1{
+        padding-left: 5px;
+        border-radius: 20px;
+        font-weight: bold;
+        color: #E5BB6C;
+    }
+    #xcz_go{
+        width:50px;
+        height: 20px;
+        border: 1px solid #E5BB6C;
+        border-radius: 20px;
+        font-weight: bold;
+        text-align: center;
+        line-height: 20px;
+        font-size: 12px;
+        color: #333;
+        outline:none;
+        background: #fff;
+
+    }
+    #xcz_tz{
+        width: 120px;
+        border-radius: 0;
+        border: 0;
+        font-size: 12px;
+        line-height: 22px;
+    }
+    #xcz_tz input{
+        width: 25px;
+        height: 22px;
+        outline:none;
+        padding-left:8px;
+        margin: 0 5px;
+        background: #E5BB6C;
+        border-radius: 20px;
+        color: #fff;
+        border: 0;
+    }
+    .xcz_active{
+        background: #E5BB6C;
+        color: #fff;
+    }
+    .xcz_comment{
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+    .xcz_comm-bt{
+        width: 165px;
+        height: 45px;
+        margin-top: 40px;
+    }
+    .xcz_comm-bt h1{
+        font-size: 22px;
+        line-height: 26px;
+        font-weight: normal;
+        color: #333;
+    }
+    .xcz_comm-bt p{
+        font-size: 15px;
+        line-height: 22px;
+        font-weight: normal;
+        color: #999;
+    }
+    .xcz_comm-pl{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid #CECECE;
+    }
+    .xcz_comm-tx{
+        width: 60px;
+        height: 60px;
+        border: 2px solid #E5BB6C;
+        border-radius: 50%;
+        margin: 34px 0 0 3px;
+        overflow: hidden;
+    }
+    .xcz_comm-tx img{
+        width: 100%;
+    }
+    .xcz_comm-nr{
+        width: 76%;
+        height: auto;
+        margin: 34px 5px 0 0;
+    }
+    .xcz_comm-nr h3{
+        display: flex;
+        justify-content: space-between;
+        font-size: 18px;
+        line-height: 30px;
+        color: #333;
+    }
+    .xcz_comm-nr h3 span{
+        font-weight: normal;
+        font-size: 12px;
+        color: #aaaaaa;
+
+    }
+    .xcz_comm-nr p{
+        width: 100%;
+        height: auto;
+        font-size: 14px;
+        color: #888;
+        line-height: 24px;
+        margin: 18px 0;
+        text-align:justify;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3;
+    }
+    .xcz_comm-yddz{
+        width: 200px;
+        height: 15px;
+        display: flex;
+        margin-bottom: 20px;
+        justify-content: space-between;
+    }
+    .xcz_comm-yddz span{
+        font-size: 12px;
+        color: #aaa;
+
+    }
+    .xcz_mess{
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+    .xcz_mess-bt{
+        width: 165px;
+        height: 45px;
+        margin: 125px 0 53px 0;
+    }
+    .xcz_mess-bt h1{
+        font-size: 22px;
+        line-height: 26px;
+        font-weight: normal;
+        color: #333;
+    }
+    .xcz_mess-bt p{
+        font-size: 15px;
+        line-height: 22px;
+        color: #999;
+        font-weight: normal;
+    }
+    .xcz_mess-bd{
+        width: 100%;
+        height: 500px;
+        margin-bottom: 150px;
+        position: relative;
+        background: -webkit-linear-gradient(#FFEEEC, #FFFBF5); /* Safari 5.1 - 6.0 */
+        background: -o-linear-gradient(#FFEEEC, #FFFBF5); /* Opera 11.1 - 12.0 */
+        background: -moz-linear-gradient(#FFEEEC, #FFFBF5); /* Firefox 3.6 - 15 */
+        background: linear-gradient(#FFEEEC, #FFFBF5); /* 标准的语法 */
+    }
+    .xcz_mess-zz{
+        width: 100%;
+        height: 90px;
+        background: rgba(0,0,0,0.5);
+        position: absolute;
+        top: 0;
+        left:0;
+        background: -webkit-linear-gradient(#f1f1f1, rgba(255,255,255,0)); /* Safari 5.1 - 6.0 */
+        background: -o-linear-gradient(#f1f1f1, rgba(255,255,255,0)); /* Opera 11.1 - 12.0 */
+        background: -moz-linear-gradient(#f1f1f1, rgba(255,255,255,0)); /* Firefox 3.6 - 15 */
+        background: linear-gradient(#f1f1f1, rgba(255,255,255,0)); /* 标准的语法 */
+    }
+    .xcz-mianbao{
+        width: 40%;
+        height: 250px;
+        background: url("../img/drawing_15.png")no-repeat;
+        background-size:60%;
+        position: absolute;
+        bottom: -100px;
+        left: 0;
+    }
+
+    #xcz_input{
+        width: calc(81% - 6%);
+        height: auto;
+        padding: 75px 12% 0;
+        display: flex;
+        flex-direction:column;
+        /*justify-content: space-between;*/
+    }
+    #xcz_name{
+        width:calc(100% - 6%);
+        height: 52px;
+        outline:none;
+        padding-left: 30px;
+        font-size: 16px;
+        border: 1px solid #ddd;
+        margin-bottom: 20px;
+    }
+    #xcz_email{
+        width:calc(100% - 6%);
+        height: 52px;
+        outline:none;
+        padding-left: 30px;
+        font-size: 16px;
+        border: 1px solid #ddd;
+
+    }
+    #xcz_wbyly{
+        width: 70%;
+        height: 280px;
+        margin: 43px 12%;
+        resize:none;
+        outline:none;
+        padding-left: 30px;
+        font-size:12pt;
+        line-height: 30px;
+        font-family: "微软雅黑","San Francisco Display";
+        border: 1px solid #ddd;
+    }
+    #xcz_but{
+        width: 90px;
+        height: 40px;
+        border-radius: 20px;
+        background: #FFEDD9;
+        position: absolute;
+        bottom: 10px;
+        right: 100px;
+        border: 0;
+        font-size: 16px;
+        font-weight: bold;
+        color: #fff;
+        font-family: "San Francisco Display";
+        outline:none;
+    }
+}
