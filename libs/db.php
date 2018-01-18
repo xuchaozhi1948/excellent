@@ -51,7 +51,6 @@ class db
      }
      function add($field,$values){
          $sql="insert into ".$this->table."(".$field.") values ( ".$values." )";
-
          $this->db->query($sql);
          return $this->db->affected_rows;
      }

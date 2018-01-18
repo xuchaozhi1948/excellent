@@ -6,24 +6,29 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="../../src/css/wzm_css/header_wzm.css">
-    <script src="../../src/js/jquery.min.js"></script>
-    <script src="../../src/js/wzm_js/header_wzm.js"></script>
+    <link rel="stylesheet" href="{CSS_PATH}wzm_css/header_wzm.css">
+    <script src="{JS_PATH}jquery.min.js"></script>
+    <script src="{JS_PATH}wzm_js/header_wzm.js"></script>
 </head>
 <body>
 <div class="wzm_box">
 <ul class="wzm_box1">
-    <a href=""><li class="">首页<div class="wzm_backimg wzm_active1"><img src="../../src/img/wzm_img/1000.png" alt=""><span>首页</span></div></li></a>
-    <a href=""><li>甜品<div class="wzm_backimg"><img src="../../src/img/wzm_img/1000.png" alt=""><span>甜品</span></div></li></a>
-    <a href=""><li>服务<div class="wzm_backimg"><img src="../../src/img/wzm_img/1000.png" alt=""><span>服务</span></div></li></a>
-    <li class='logo'><img src="../../src/img/wzm_img/logo.png" alt=""></li>
-    <a href=""><li>动态<div class="wzm_backimg"><img src="../../src/img/wzm_img/1000.png" alt=""><span>动态</span></div></li></a>
-    <a href=""><li>诚聘<div class="wzm_backimg"><img src="../../src/img/wzm_img/1000.png" alt=""><span>诚聘</span></div></li></a>
-    <a href=""><li>我们<div class="wzm_backimg"><img src="../../src/img/wzm_img/1000.png" alt=""><span>我们</span></div></li></a>
+    {foreach $row as $item}
+    <a href="?a={$item['curl']}"><li class="">{$item['title']}<div class="wzm_backimg"><img src="{IMG_PATH}wzm_img/1000.png" alt=""><span>{$item['title']}</span></div></li></a>
+    {/foreach}
+    <!--<a href=""><li>甜品<div class="wzm_backimg"><img src="{IMG_PATH}wzm_img/1000.png" alt=""><span>甜品</span></div></li></a>-->
+    <!--<a href=""><li>服务<div class="wzm_backimg"><img src="{IMG_PATH}wzm_img/1000.png" alt=""><span>服务</span></div></li></a>-->
+    <li class='logo'><img src="{IMG_PATH}wzm_img/logo.png" alt=""></li>
+    <!--<a href=""><li>动态<div class="wzm_backimg"><img src="{IMG_PATH}wzm_img/1000.png" alt=""><span>动态</span></div></li></a>-->
+    <!--<a href=""><li>诚聘<div class="wzm_backimg"><img src="{IMG_PATH}wzm_img/1000.png" alt=""><span>诚聘</span></div></li></a>-->
+    <!--<a href=""><li>我们<div class="wzm_backimg"><img src="{IMG_PATH}wzm_img/1000.png" alt=""><span>我们</span></div></li></a>-->
+    {foreach $arr as $item}
+    <a href="?a={$item['curl']}"><li class="">{$item['title']}<div class="wzm_backimg"><img src="{IMG_PATH}wzm_img/1000.png" alt=""><span>{$item['title']}</span></div></li></a>
+    {/foreach}
 </ul>
 <div class="wzm_box2">我们
 <div class="wzm_logo1">
-    <img src="../../src/img/wzm_img/logo.png" alt="">
+    <img src="{IMG_PATH}wzm_img/logo.png" alt="">
 </div>
 
 <div class="wzm_caidan iconfont">

@@ -13,4 +13,9 @@ $(function () {
   $('.wzm_close').click(function () {
       $('.wzm_zhezhao').css({'display':'none'});
   });
+  $('.anniu').click(function () {
+      if(flag){
+          alert('请同意协议');
+      }
+  });
 })
