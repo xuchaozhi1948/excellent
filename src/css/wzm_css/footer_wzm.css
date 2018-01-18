@@ -1,0 +1,135 @@
+*{
+    margin:0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.wzm_footer{
+    width: 100%;
+    height: 840px;
+    position: relative;
+    top:-145px;
+    background: #1c1c1c;
+    overflow: hidden;
+}
+.wzm_footer1{
+    width: 1200px;
+    height: 770px;
+    margin:70px auto 0;
+}
+.wzm_footer2{
+    width: 100%;
+    height: 420px;
+    padding: 70px 0 100px 0;
+    box-sizing: border-box;
+    display: flex;
+    border-bottom: 1px solid #393939;
+}
+.wzm_footer3{
+    width: 20%;
+    height: 100%;
+}
+.wzm_footer4{
+    width: 100%;
+    height: 30px;
+    font-size: 16px;
+    color: #cea85f;
+}
+.footer5{
+    font-size: 24px;
+    height: 50px;
+}
+.wzm_footer6{
+    width: 340px;
+    height: 130px;
+    padding-top: 60px;
+    margin: 0 auto;
+}
+.wzm_footer7{
+    width: 100%;
+    height: 23px;
+    line-height: 23px;
+    text-align: center;
+    font-size: 12px;
+    color: #cea85f;
+}
+.wzm_yidong{
+    display: none;
+}
+@media screen and (max-width: 1200px){
+    .wzm_footer1{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .wzm_footer{
+        display: none;
+    }
+    .wzm_yidong{
+        display: block;
+        margin: 0 15px;
+        width: auto;
+        height: auto;
+        background: #333333;
+        position: relative;
+    }
+    .wzm_yidong1{
+        width: 50%;
+        height: auto;
+        margin: 0 auto;
+        padding-top: 10px;
+        box-sizing: border-box;
+    }
+    .wzm_yidong11{
+        width: 100%;
+        height: 100%;
+        padding: 0 25px;
+        box-sizing: border-box;
+        font-size: 14px;
+        line-height: 49px;
+        color: #cea85f;
+    }
+    .wzm_yidong2{
+        width: 100%;
+        height: 49px;
+        border-bottom: 1px dashed #cea85f;
+        position: relative;
+        overflow: hidden;
+    }
+    .wzm_footer6{
+        width: 100%;
+    }
+    .wzm_more{
+        width: 10%;
+        height: 49px;
+        font-size: 12px;
+        line-height: 49px;
+        text-align: center;
+        position: absolute;
+        right: 0;
+        top:0;
+        left:auto;
+        color: #cea85f;
+        cursor: pointer;
+    }
+    .fenlei{
+        width: 100%;
+        height: auto;
+        padding: 0 20px 20px;
+        box-sizing: border-box;
+    }
+    .meige{
+        width: 100%;
+        height: 30px;
+        padding: 0 20px;
+        box-sizing: border-box;
+        font-size: 12px;
+        line-height: 30px;
+        color: #c0a16b;
+        cursor: pointer;
+    }
+    .meige:hover{
+        color: #cea85f;
+    }
+}

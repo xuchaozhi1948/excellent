@@ -12,7 +12,7 @@ class db
     private $host='localhost';
     private $username='root';
     private   $pass='';
-    private   $dbname='company';
+    private   $dbname='coffee';
     private   $port='3306';
      function __construct($table)
      {
