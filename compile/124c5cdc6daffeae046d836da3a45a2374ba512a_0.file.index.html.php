@@ -1,27 +1,31 @@
 <?php
-/* Smarty version 3.1.30, created on 2018-01-17 10:29:41
+/* Smarty version 3.1.30, created on 2018-01-18 08:13:19
   from "E:\wamp64\www\excellent\views\index\index.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5a5f2595c7e956_39336149',
+  'unifunc' => 'content_5a60571fefec65_47448460',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '124c5cdc6daffeae046d836da3a45a2374ba512a' => 
     array (
       0 => 'E:\\wamp64\\www\\excellent\\views\\index\\index.html',
-      1 => 1516184981,
+      1 => 1516263199,
       2 => 'file',
     ),
   ),
   'includes' => 
   array (
+    'file:index/header_wzm.html' => 1,
+    'file:index/footer_wzm.html' => 1,
   ),
 ),false)) {
-function content_5a5f2595c7e956_39336149 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5a60571fefec65_47448460 (Smarty_Internal_Template $_smarty_tpl) {
+$_smarty_tpl->_subTemplateRender("file:index/header_wzm.html", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -37,6 +41,7 @@ swiper.min.js"><?php echo '</script'; ?>
 >
 </head>
 <body>
+
 
 <div class="swiper-container">
     <div class="swiper-wrapper">
@@ -612,6 +617,9 @@ pic_001.png" alt="">
 
 
 </nav>
+<?php $_smarty_tpl->_subTemplateRender("file:index/footer_wzm.html", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
+?>
+
 
 </body>
 <?php echo '<script'; ?>
